@@ -63,7 +63,7 @@
     <applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>true</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningSalesConsole</application>
