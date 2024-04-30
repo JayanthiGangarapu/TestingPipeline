@@ -1,0 +1,27 @@
+{
+  "Object": "SBQQ__SummaryVariable__c",
+  "Fields": {
+    "GearsetDisplayName": "Count Fee family as usage except Transaction Fee",
+    "GearsetExternalId__c": "4AMLBII1000005DD1a",
+    "Name": "Count Fee family as usage except Transaction Fee",
+    "SBQQ__AggregateField__c": "Quantity",
+    "SBQQ__AggregateFunction__c": "Count",
+    "SBQQ__CompositeOperator__c": "",
+    "SBQQ__ConstraintField__c": "",
+    "SBQQ__FilterField__c": "ProductMasterRecordId__c",
+    "SBQQ__FilterValue__c": "31",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__Scope__c": "Quote",
+    "SBQQ__TargetObject__c": "Product Option",
+    "SBQQ__ValueElement__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__CombineWith__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

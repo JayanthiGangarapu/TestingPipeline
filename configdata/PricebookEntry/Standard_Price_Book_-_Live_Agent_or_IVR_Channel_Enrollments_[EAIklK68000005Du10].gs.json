@@ -1,0 +1,26 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "GearsetDisplayName": "Standard Price Book - Live Agent or IVR Channel Enrollments",
+    "GearsetExternalId__c": "EAIklK68000005Du10",
+    "IsActive": "true",
+    "UnitPrice": "3.9",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "UAIVjVh4000005Dt10"
+      }
+    }
+  ]
+}

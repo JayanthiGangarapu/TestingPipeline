@@ -1,0 +1,26 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "GearsetDisplayName": "Standard Price Book - Usage Fees - <  50000 Loyalty Cards - Per Spec",
+    "GearsetExternalId__c": "EAIlkK68000005Du10",
+    "IsActive": "true",
+    "UnitPrice": "0.18",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "EAI7lVh4000005Dt10"
+      }
+    }
+  ]
+}

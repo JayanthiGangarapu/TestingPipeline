@@ -1,0 +1,26 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "GearsetDisplayName": "Standard Price Book - Direct Patient Reimbursement Fulfillment",
+    "GearsetExternalId__c": "MAI2OI28000005Du10",
+    "IsActive": "true",
+    "UnitPrice": "18.0",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "QAIE0vk4000005Dt10"
+      }
+    }
+  ]
+}

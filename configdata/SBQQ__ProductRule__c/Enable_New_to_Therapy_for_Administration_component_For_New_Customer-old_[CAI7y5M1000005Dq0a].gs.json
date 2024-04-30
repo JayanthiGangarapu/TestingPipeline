@@ -1,0 +1,26 @@
+{
+  "Object": "SBQQ__ProductRule__c",
+  "Fields": {
+    "Description__c": [
+      "This Product rule to check If a quote line exists for Administration component, Or If a subscription record exists for Administration component for this account. ",
+      "The subscription end date is in future."
+    ],
+    "GearsetDisplayName": "Enable New to Therapy for Administration component For New Customer-old",
+    "GearsetExternalId__c": "CAI7y5M1000005Dq0a",
+    "Name": "Enable New to Therapy for Administration component For New Customer-old",
+    "SBQQ__Active__c": "false",
+    "SBQQ__AdvancedCondition__c": "",
+    "SBQQ__ConditionsMet__c": "Any",
+    "SBQQ__ErrorMessage__c": "",
+    "SBQQ__EvaluationEvent__c": "Always",
+    "SBQQ__EvaluationOrder__c": "100.0",
+    "SBQQ__LookupMessageField__c": "",
+    "SBQQ__LookupObject__c": "",
+    "SBQQ__LookupProductField__c": "",
+    "SBQQ__LookupRequiredField__c": "",
+    "SBQQ__LookupTypeField__c": "",
+    "SBQQ__Scope__c": "Product",
+    "SBQQ__Type__c": "Selection"
+  },
+  "References": []
+}

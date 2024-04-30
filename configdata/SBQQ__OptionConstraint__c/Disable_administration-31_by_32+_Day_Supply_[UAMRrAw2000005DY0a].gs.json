@@ -1,0 +1,35 @@
+{
+  "Object": "SBQQ__OptionConstraint__c",
+  "Fields": {
+    "GearsetDisplayName": "Disable administration-31 by 32+ Day Supply",
+    "GearsetExternalId__c": "UAMRrAw2000005DY0a",
+    "Name": "Disable administration-31 by 32+ Day Supply",
+    "SBQQ__Active__c": "true",
+    "SBQQ__CheckPriorPurchases__c": "false",
+    "SBQQ__OptionConstraintGroup__c": "",
+    "SBQQ__Type__c": "Exclusion"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ConfiguredSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "UAIB3Uh4000005Dt10"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainedOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "MAI0JKf2000005Dp0a"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainingOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "2AIMJKf2000005Dp0a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Object": "SBQQ__PriceRule__c",
+  "Fields": {
+    "Description__c": "This Price rule will fire for Account Management Fee Yearly or Monthly to update the Fee paid of quote line item when any one Subscription is already paid.",
+    "GearsetDisplayName": "Update Fee Paid for Account Management Fee",
+    "GearsetExternalId__c": "EAIsaIo4000005Dd0a",
+    "Name": "Update Fee Paid for Account Management Fee",
+    "SBQQ__Active__c": "true",
+    "SBQQ__AdvancedCondition__c": "(2 AND 3) OR (1 AND 4)",
+    "SBQQ__ConditionsMet__c": "Custom",
+    "SBQQ__ConfiguratorEvaluationEvent__c": "Edit",
+    "SBQQ__EvaluationEvent__c": "On Calculate",
+    "SBQQ__EvaluationOrder__c": "",
+    "SBQQ__LookupObject__c": "",
+    "SBQQ__TargetObject__c": "Calculator"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

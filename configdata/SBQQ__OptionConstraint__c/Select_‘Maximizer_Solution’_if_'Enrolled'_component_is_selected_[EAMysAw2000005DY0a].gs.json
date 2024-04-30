@@ -1,0 +1,35 @@
+{
+  "Object": "SBQQ__OptionConstraint__c",
+  "Fields": {
+    "GearsetDisplayName": "Select ‘Maximizer Solution’ if 'Enrolled' component is selected",
+    "GearsetExternalId__c": "EAMysAw2000005DY0a",
+    "Name": "Select ‘Maximizer Solution’ if 'Enrolled' component is selected",
+    "SBQQ__Active__c": "true",
+    "SBQQ__CheckPriorPurchases__c": "false",
+    "SBQQ__OptionConstraintGroup__c": "",
+    "SBQQ__Type__c": "Dependency"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ConfiguredSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "2AITIUh4000005Dt10"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainedOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "MAI7LKf2000005Dp0a"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainingOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "MAIqKKf2000005Dp0a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "Object": "SBQQ__ConfigurationRule__c",
+  "Fields": {
+    "GearsetDisplayName": "Enrolled - Generic Product Hiding",
+    "GearsetExternalId__c": "UAIC1Ok9000005D70a",
+    "SBQQ__Active__c": "true",
+    "SBQQ__AscendingNestedLevel__c": "",
+    "SBQQ__DescendingActionNesting__c": "",
+    "SBQQ__DescendingNestedLevel__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ProductFeature__r",
+      "ReferencedObject": "SBQQ__ProductFeature__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__ProductRule__r",
+      "ReferencedObject": "SBQQ__ProductRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "YAIMVpj0000005Dq0a"
+      }
+    },
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "2AIMGUh4000005Dt10"
+      }
+    }
+  ]
+}

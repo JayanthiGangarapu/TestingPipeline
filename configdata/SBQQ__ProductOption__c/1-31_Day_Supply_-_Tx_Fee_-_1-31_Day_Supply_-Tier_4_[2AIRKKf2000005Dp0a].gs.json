@@ -1,0 +1,79 @@
+{
+  "Object": "SBQQ__ProductOption__c",
+  "Fields": {
+    "GearsetDisplayName": "1-31 Day Supply - Tx Fee - 1-31 Day Supply -Tier 4",
+    "GearsetExternalId__c": "2AIRKKf2000005Dp0a",
+    "Lowerbound__c": "3000001.0",
+    "ProjectionAmount__c": "",
+    "ProjectionQuantity__c": "",
+    "SBQQ__AppliedImmediatelyContext__c": "",
+    "SBQQ__AppliedImmediately__c": "false",
+    "SBQQ__Bundled__c": "false",
+    "SBQQ__ComponentCodePosition__c": "",
+    "SBQQ__ComponentCode__c": "",
+    "SBQQ__ComponentDescriptionPosition__c": "",
+    "SBQQ__ComponentDescription__c": "",
+    "SBQQ__DefaultPricingTable__c": "",
+    "SBQQ__DiscountAmount__c": "",
+    "SBQQ__DiscountedByPackage__c": "false",
+    "SBQQ__Discount__c": "",
+    "SBQQ__ExistingQuantity__c": "",
+    "SBQQ__MaxQuantity__c": "",
+    "SBQQ__MinQuantity__c": "",
+    "SBQQ__Number__c": "40.0",
+    "SBQQ__QuantityEditable__c": "true",
+    "SBQQ__Quantity__c": "",
+    "SBQQ__QuoteLineVisibility__c": "",
+    "SBQQ__Required__c": "false",
+    "SBQQ__Selected__c": "false",
+    "SBQQ__SubscriptionScope__c": "",
+    "SBQQ__System__c": "false",
+    "SBQQ__Type__c": "Related Product",
+    "SBQQ__UnitPrice__c": "",
+    "SBQQ__UpliftedByPackage__c": "false",
+    "Tier__c": "4.0",
+    "TxNetPrice__c": "0.0",
+    "TxUnitPrice__c": "0.0",
+    "UpperBound__c": "4000000.0",
+    "UsageDiscount__c": "",
+    "UsagePricingMethod__c": "Per Unit",
+    "UsagePricingType__c": "Range"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ConfiguredSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "EAIf3Uh4000005Dt10"
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Feature__r",
+      "ReferencedObject": "SBQQ__ProductFeature__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "AAI50ta1000005Do0a"
+      }
+    },
+    {
+      "Name": "SBQQ__OptionalSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "UAIJmVh4000005Dt10"
+      }
+    },
+    {
+      "Name": "SBQQ__RenewalProductOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

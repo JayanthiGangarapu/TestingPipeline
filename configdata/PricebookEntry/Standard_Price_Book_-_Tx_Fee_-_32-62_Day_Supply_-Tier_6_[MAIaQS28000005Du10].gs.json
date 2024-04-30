@@ -1,0 +1,26 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "GearsetDisplayName": "Standard Price Book - Tx Fee - 32-62 Day Supply -Tier 6",
+    "GearsetExternalId__c": "MAIaQS28000005Du10",
+    "IsActive": "true",
+    "UnitPrice": "0.0",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "YAIZK5l4000005Dt10"
+      }
+    }
+  ]
+}

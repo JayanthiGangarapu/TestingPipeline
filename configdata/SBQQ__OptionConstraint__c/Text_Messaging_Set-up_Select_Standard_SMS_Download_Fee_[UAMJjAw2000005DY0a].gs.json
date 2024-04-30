@@ -1,0 +1,35 @@
+{
+  "Object": "SBQQ__OptionConstraint__c",
+  "Fields": {
+    "GearsetDisplayName": "Text Messaging Set-up Select Standard SMS Download Fee",
+    "GearsetExternalId__c": "UAMJjAw2000005DY0a",
+    "Name": "Text Messaging Set-up Select Standard SMS Download Fee",
+    "SBQQ__Active__c": "true",
+    "SBQQ__CheckPriorPurchases__c": "false",
+    "SBQQ__OptionConstraintGroup__c": "",
+    "SBQQ__Type__c": "Dependency"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ConfiguredSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "2AILGUh4000005Dt10"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainedOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "2AINRKf2000005Dp0a"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainingOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "2AIHRKf2000005Dp0a"
+      }
+    }
+  ]
+}

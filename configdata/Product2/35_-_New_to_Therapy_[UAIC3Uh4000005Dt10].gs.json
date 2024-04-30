@@ -1,0 +1,243 @@
+{
+  "Object": "Product2",
+  "Fields": {
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalId": "",
+    "Family": "",
+    "GearsetDisplayName": "35 - New to Therapy",
+    "GearsetExternalId__c": "UAIC3Uh4000005Dt10",
+    "IsActive": "true",
+    "MDM_Business_Line__c": "Pharmacy & Affordability",
+    "MDM_Business_Unit__c": "CMM",
+    "MDM_ComponentLifecycle_Category__c": "",
+    "MDM_Component_Acronym__c": "NTT",
+    "MDM_Component_Benefiting_Customer_Types__c": "Pharmacy;Pharma",
+    "MDM_Component_Category__c": "Paid Component",
+    "MDM_Component_Description__c": "Similar to eVoucherRx, but distinguishes patients who have previously received a prescription for the program drug and are comfortable with the co-pay, and only offers co-pay savings to patients who have not been on program drug in recent months. This app",
+    "MDM_Component_Documentation_Link__c": "",
+    "MDM_Component_ID__c": "401.0",
+    "MDM_Component_Marketing_Link__c": "",
+    "MDM_Component_Marketing_Manager_EID__c": "",
+    "MDM_Component_Marketing_Manager_Name__c": "",
+    "MDM_Component_Market_Segment__c": "Pharma",
+    "MDM_Component_Name__c": "New to Therapy",
+    "MDM_Component_Other_Names__c": "New Patient Acquisition; New to Therapy Targeting",
+    "MDM_Component_Requirements__c": "Evoucher for pharma",
+    "MDM_Component_SME_EID__c": "",
+    "MDM_Component_SME_Name__c": "",
+    "MDM_Component_Status__c": "Active",
+    "MDM_ContractingEntity__c": "NDCHealth Corporation d/b/a RelayHealth",
+    "MDM_Core_Service__c": "eVoucher",
+    "MDM_Est_Profit_Margin__c": "0.59",
+    "MDM_FeePrerequisits__c": "",
+    "MDM_Fee_Acronymn__c": "",
+    "MDM_Fee_Cadence__c": "",
+    "MDM_Fee_Description__c": "",
+    "MDM_Fee_Family__c": "",
+    "MDM_Fee_ID__c": "",
+    "MDM_Fee_Interval__c": "",
+    "MDM_Fee_Max_PPI__c": "",
+    "MDM_Fee_Min_PPU__c": "",
+    "MDM_Fee_Name__c": "",
+    "MDM_Fee_Other_Names__c": "",
+    "MDM_Fee_Revenue_Category__c": "",
+    "MDM_Fee_Revenue_Subcategory__c": "",
+    "MDM_Fee_Standard_PPI__c": "",
+    "MDM_Fee_Status__c": "",
+    "MDM_Fee_Std_Qty__c": "",
+    "MDM_Fee_Type__c": "",
+    "MDM_Fee_UofM__c": "",
+    "MDM_Forecasting_System__c": "",
+    "MDM_HighspotLink__c": "",
+    "MDM_Invoicing_System__c": "",
+    "MDM_Legacy_BU__c": "RHP",
+    "MDM_Management_System__c": "4",
+    "MDM_Master_Record_Id__c": "35.0",
+    "MDM_Master_Record_type__c": "Component",
+    "MDM_Netsuite_Product_ID__c": "",
+    "MDM_Parent_Organization__c": "McK US",
+    "MDM_Pricing_Team__c": "Affordability",
+    "MDM_Problems_Solved__c": "Patients won’t adhere to therapy that’s too expensive.; Lack of knowledge about copay offerings for patients.",
+    "MDM_Profit_Center_ID__c": "6829",
+    "MDM_Profit_Center_Name__c": "eVoucherRx (eVRx)",
+    "MDM_Sales_System__c": "4",
+    "MDM_SAP_Material_Code__c": "",
+    "MDM_ServiceLifecycle_Category__c": "Growth",
+    "MDM_ServiceSMELegal__c": "Jay Powell",
+    "MDM_Service_Acronym__c": "EV",
+    "MDM_Service_Bundle_Type__c": "Single Service",
+    "MDM_Service_Category_Acronym__c": "",
+    "MDM_Service_Category_Other_Names__c": "",
+    "MDM_Service_Category__c": "Patient Financial Assistance",
+    "MDM_Service_Channel__c": "Affordability",
+    "MDM_Service_Description__c": "Paperless, electronic coupon program that streamlines and simplifies co-pay prescription savings for patients and pharmacy operators.",
+    "MDM_Service_Documentation_Link__c": "",
+    "MDM_Service_ID__c": "4.0",
+    "MDM_Service_Marketing_Link__c": "https://www.mckesson.com/Biopharma/eVoucherRx-CoPay-Savings/",
+    "MDM_Service_Marketing_Manager_EID__c": "",
+    "MDM_Service_Marketing_Manager_Name__c": "",
+    "MDM_Service_Name__c": "eVoucherRx™",
+    "MDM_Service_Other_Names__c": "eVoucher",
+    "MDM_Service_Requirements__c": "Pharmacies with Intelligent Network",
+    "MDM_Service_SME_AcctMgmt__c": "Debra Vercellotti",
+    "MDM_Service_SME_Commercial__c": "Marissa Presnell; Brad Lewis",
+    "MDM_Service_SME_EID__c": "",
+    "MDM_Service_SME_Marketing__c": "Christy Crestin; Kerry Stanfield",
+    "MDM_Service_SME_Name__c": "",
+    "MDM_Service_SME_Pricing__c": "Tim Horner",
+    "MDM_Service_SME_Product__c": "Tate Williams; Kelly Sheen; Erica Berg",
+    "MDM_Service_Status__c": "Active",
+    "MDM_Service_Subcategory__c": "",
+    "MDM_Show_on_Contract__c": "false",
+    "MDM_Show_On_FeeSheet__c": "false",
+    "MDM_Standard_Fee_Name__c": "",
+    "MDM_Strategy_Notes__c": "Best suited for retail drugs, not offered with government benefits; Good to offer with DC, CoC, and ePA.",
+    "MDM_WebLink__c": "https://www.mckesson.com/Biopharma/eVoucherRx-CoPay-Savings/",
+    "Name": "New to Therapy",
+    "ProductAvailability__c": "",
+    "ProductCode": "35",
+    "QuantityUnitOfMeasure": "",
+    "SBQQ__AssetAmendmentBehavior__c": "Default",
+    "SBQQ__AssetConversion__c": "One per quote line",
+    "SBQQ__BatchQuantity__c": "",
+    "SBQQ__BillingFrequency__c": "",
+    "SBQQ__BillingType__c": "",
+    "SBQQ__BlockPricingField__c": "Quantity",
+    "SBQQ__ChargeType__c": "",
+    "SBQQ__Component__c": "true",
+    "SBQQ__CompoundDiscountRate__c": "",
+    "SBQQ__ConfigurationEvent__c": "Always",
+    "SBQQ__ConfigurationFieldSet__c": "",
+    "SBQQ__ConfigurationFields__c": "",
+    "SBQQ__ConfigurationFormTitle__c": "",
+    "SBQQ__ConfigurationType__c": "Allowed",
+    "SBQQ__ConfigurationValidator__c": "",
+    "SBQQ__ConfiguredCodePattern__c": "",
+    "SBQQ__ConfiguredDescriptionPattern__c": "",
+    "SBQQ__CostEditable__c": "false",
+    "SBQQ__CustomConfigurationPage__c": "",
+    "SBQQ__CustomConfigurationRequired__c": "false",
+    "SBQQ__CustomerCommunityAvailability__c": "",
+    "SBQQ__DefaultPricingTable__c": "",
+    "SBQQ__DefaultQuantity__c": "",
+    "SBQQ__DescriptionLocked__c": "true",
+    "SBQQ__DynamicPricingConstraint__c": "",
+    "SBQQ__EnableLargeConfiguration__c": "false",
+    "SBQQ__ExcludeFromMaintenance__c": "false",
+    "SBQQ__ExcludeFromOpportunity__c": "false",
+    "SBQQ__ExternallyConfigurable__c": "false",
+    "SBQQ__GenerateContractedPrice__c": "",
+    "SBQQ__HasConfigurationAttributes__c": "false",
+    "SBQQ__HasConsumptionSchedule__c": "false",
+    "SBQQ__Hidden__c": "false",
+    "SBQQ__HidePriceInSearchResults__c": "false",
+    "SBQQ__IncludeInMaintenance__c": "false",
+    "SBQQ__NewQuoteGroup__c": "false",
+    "SBQQ__NonDiscountable__c": "false",
+    "SBQQ__NonPartnerDiscountable__c": "false",
+    "SBQQ__Optional__c": "false",
+    "SBQQ__OptionLayout__c": "",
+    "SBQQ__OptionSelectionMethod__c": "Click",
+    "SBQQ__PriceEditable__c": "false",
+    "SBQQ__PricingMethodEditable__c": "false",
+    "SBQQ__PricingMethod__c": "List",
+    "SBQQ__ProductPictureID__c": "",
+    "SBQQ__QuantityEditable__c": "false",
+    "SBQQ__QuantityScale__c": "0.0",
+    "SBQQ__ReconfigurationDisabled__c": "false",
+    "SBQQ__SortOrder__c": "",
+    "SBQQ__Specifications__c": "",
+    "SBQQ__SubscriptionBase__c": "List",
+    "SBQQ__SubscriptionCategory__c": "",
+    "SBQQ__SubscriptionPercent__c": "",
+    "SBQQ__SubscriptionPricing__c": "Fixed Price",
+    "SBQQ__SubscriptionTerm__c": "",
+    "SBQQ__SubscriptionType__c": "Renewable",
+    "SBQQ__Taxable__c": "false",
+    "SBQQ__TaxCode__c": "",
+    "SBQQ__TermDiscountLevel__c": "",
+    "SBQQ__UpgradeRatio__c": "",
+    "StockKeepingUnit": ""
+  },
+  "References": [
+    {
+      "Name": "RecordTypeId",
+      "ReferencedObject": "RecordType",
+      "ReferencedFields": {
+        "Name": "BioPharma",
+        "SobjectType": "Product2"
+      }
+    },
+    {
+      "Name": "SBQQ__CostSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountCategory__r",
+      "ReferencedObject": "SBQQ__DiscountCategory__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__PricingGuidance__r",
+      "ReferencedObject": "SBQQ__PricingGuidance__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__RenewalProduct__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__SubscriptionTarget__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__TermDiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeCredit__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeSource__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeTarget__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

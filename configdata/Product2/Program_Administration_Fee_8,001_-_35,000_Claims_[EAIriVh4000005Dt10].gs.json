@@ -1,0 +1,243 @@
+{
+  "Object": "Product2",
+  "Fields": {
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalId": "",
+    "Family": "",
+    "GearsetDisplayName": "Program Administration Fee 8,001 - 35,000 Claims",
+    "GearsetExternalId__c": "EAIriVh4000005Dt10",
+    "IsActive": "true",
+    "MDM_Business_Line__c": "Pharmacy & Affordability",
+    "MDM_Business_Unit__c": "CMM",
+    "MDM_ComponentLifecycle_Category__c": "",
+    "MDM_Component_Acronym__c": "",
+    "MDM_Component_Benefiting_Customer_Types__c": "Pharma",
+    "MDM_Component_Category__c": "Paid Component",
+    "MDM_Component_Description__c": "",
+    "MDM_Component_Documentation_Link__c": "",
+    "MDM_Component_ID__c": "716.0",
+    "MDM_Component_Marketing_Link__c": "",
+    "MDM_Component_Marketing_Manager_EID__c": "",
+    "MDM_Component_Marketing_Manager_Name__c": "",
+    "MDM_Component_Market_Segment__c": "Pharma",
+    "MDM_Component_Name__c": "Maximizer Solution",
+    "MDM_Component_Other_Names__c": "Maximizer Support",
+    "MDM_Component_Requirements__c": "Standard Loyaltyscript",
+    "MDM_Component_SME_EID__c": "",
+    "MDM_Component_SME_Name__c": "",
+    "MDM_Component_Status__c": "Active",
+    "MDM_ContractingEntity__c": "RxC Acquisition Company d/b/a RxCrossroads by McKesson",
+    "MDM_Core_Service__c": "CoPay",
+    "MDM_Est_Profit_Margin__c": "0.32",
+    "MDM_FeePrerequisits__c": "",
+    "MDM_Fee_Acronymn__c": "",
+    "MDM_Fee_Cadence__c": "Recurring",
+    "MDM_Fee_Description__c": "",
+    "MDM_Fee_Family__c": "Subscription Based",
+    "MDM_Fee_ID__c": "1100.0",
+    "MDM_Fee_Interval__c": "Monthly",
+    "MDM_Fee_Max_PPI__c": "",
+    "MDM_Fee_Min_PPU__c": "",
+    "MDM_Fee_Name__c": "Program Administration Fee 8,001 - 35,000 Claims",
+    "MDM_Fee_Other_Names__c": "Administration Fee - Claim Tier 5 - Monthly",
+    "MDM_Fee_Revenue_Category__c": "",
+    "MDM_Fee_Revenue_Subcategory__c": "",
+    "MDM_Fee_Standard_PPI__c": "",
+    "MDM_Fee_Status__c": "Active",
+    "MDM_Fee_Std_Qty__c": "",
+    "MDM_Fee_Type__c": "",
+    "MDM_Fee_UofM__c": "",
+    "MDM_Forecasting_System__c": "",
+    "MDM_HighspotLink__c": "",
+    "MDM_Invoicing_System__c": "",
+    "MDM_Legacy_BU__c": "RxC",
+    "MDM_Management_System__c": "",
+    "MDM_Master_Record_Id__c": "1872.0",
+    "MDM_Master_Record_type__c": "Fee",
+    "MDM_Netsuite_Product_ID__c": "",
+    "MDM_Parent_Organization__c": "McK US",
+    "MDM_Pricing_Team__c": "Affordability",
+    "MDM_Problems_Solved__c": "Uninsured, underinsured and high-deductible health plan-covered patients are increasingly exposed to the full cost of their medications leading to abandonment and switching to an alternative.",
+    "MDM_Profit_Center_ID__c": "",
+    "MDM_Profit_Center_Name__c": "",
+    "MDM_Sales_System__c": "4",
+    "MDM_SAP_Material_Code__c": "",
+    "MDM_ServiceLifecycle_Category__c": "",
+    "MDM_ServiceSMELegal__c": "",
+    "MDM_Service_Acronym__c": "LS",
+    "MDM_Service_Bundle_Type__c": "Single Service",
+    "MDM_Service_Category_Acronym__c": "",
+    "MDM_Service_Category_Other_Names__c": "",
+    "MDM_Service_Category__c": "Patient Financial Assistance",
+    "MDM_Service_Channel__c": "Affordability",
+    "MDM_Service_Description__c": "Medical benefit discounts and pharmacy point sale discounts for manufacturer-sponsored products direct to patients. (Copay cards provided in print or electronic format).",
+    "MDM_Service_Documentation_Link__c": "https://covermymeds.highspot.com/spots/634595041a043b26ef583b04?list=64133ff41583efc781ecae25&overview=true",
+    "MDM_Service_ID__c": "9.0",
+    "MDM_Service_Marketing_Link__c": "https://www.mckesson.com/Biopharma/LoyaltyScript-CoPay-Program/",
+    "MDM_Service_Marketing_Manager_EID__c": "",
+    "MDM_Service_Marketing_Manager_Name__c": "",
+    "MDM_Service_Name__c": "LoyaltyScript®",
+    "MDM_Service_Other_Names__c": "Copay",
+    "MDM_Service_Requirements__c": "Pharmacies with Intelligent Network",
+    "MDM_Service_SME_AcctMgmt__c": "Rae White",
+    "MDM_Service_SME_Commercial__c": "Marissa Presnell; Laura Redman",
+    "MDM_Service_SME_EID__c": "",
+    "MDM_Service_SME_Marketing__c": "Christy Crestin",
+    "MDM_Service_SME_Name__c": "",
+    "MDM_Service_SME_Pricing__c": "Zach Mertz",
+    "MDM_Service_SME_Product__c": "Tate Williams; Kelly Sheen; Erica Berg",
+    "MDM_Service_Status__c": "Active",
+    "MDM_Service_Subcategory__c": "",
+    "MDM_Show_on_Contract__c": "true",
+    "MDM_Show_On_FeeSheet__c": "true",
+    "MDM_Standard_Fee_Name__c": "Subscription Fee - 8001 - 35000 Claims - Monthly",
+    "MDM_Strategy_Notes__c": "",
+    "MDM_WebLink__c": "",
+    "Name": "Program Administration Fee 8,001 - 35,000 Claims",
+    "ProductAvailability__c": "",
+    "ProductCode": "",
+    "QuantityUnitOfMeasure": "",
+    "SBQQ__AssetAmendmentBehavior__c": "Default",
+    "SBQQ__AssetConversion__c": "One per quote line",
+    "SBQQ__BatchQuantity__c": "",
+    "SBQQ__BillingFrequency__c": "",
+    "SBQQ__BillingType__c": "",
+    "SBQQ__BlockPricingField__c": "Quantity",
+    "SBQQ__ChargeType__c": "",
+    "SBQQ__Component__c": "true",
+    "SBQQ__CompoundDiscountRate__c": "",
+    "SBQQ__ConfigurationEvent__c": "",
+    "SBQQ__ConfigurationFieldSet__c": "",
+    "SBQQ__ConfigurationFields__c": "",
+    "SBQQ__ConfigurationFormTitle__c": "",
+    "SBQQ__ConfigurationType__c": "",
+    "SBQQ__ConfigurationValidator__c": "",
+    "SBQQ__ConfiguredCodePattern__c": "",
+    "SBQQ__ConfiguredDescriptionPattern__c": "",
+    "SBQQ__CostEditable__c": "false",
+    "SBQQ__CustomConfigurationPage__c": "",
+    "SBQQ__CustomConfigurationRequired__c": "false",
+    "SBQQ__CustomerCommunityAvailability__c": "",
+    "SBQQ__DefaultPricingTable__c": "",
+    "SBQQ__DefaultQuantity__c": "1.0",
+    "SBQQ__DescriptionLocked__c": "true",
+    "SBQQ__DynamicPricingConstraint__c": "",
+    "SBQQ__EnableLargeConfiguration__c": "false",
+    "SBQQ__ExcludeFromMaintenance__c": "false",
+    "SBQQ__ExcludeFromOpportunity__c": "false",
+    "SBQQ__ExternallyConfigurable__c": "false",
+    "SBQQ__GenerateContractedPrice__c": "",
+    "SBQQ__HasConfigurationAttributes__c": "false",
+    "SBQQ__HasConsumptionSchedule__c": "false",
+    "SBQQ__Hidden__c": "true",
+    "SBQQ__HidePriceInSearchResults__c": "false",
+    "SBQQ__IncludeInMaintenance__c": "false",
+    "SBQQ__NewQuoteGroup__c": "false",
+    "SBQQ__NonDiscountable__c": "false",
+    "SBQQ__NonPartnerDiscountable__c": "false",
+    "SBQQ__Optional__c": "false",
+    "SBQQ__OptionLayout__c": "",
+    "SBQQ__OptionSelectionMethod__c": "Click",
+    "SBQQ__PriceEditable__c": "true",
+    "SBQQ__PricingMethodEditable__c": "false",
+    "SBQQ__PricingMethod__c": "List",
+    "SBQQ__ProductPictureID__c": "",
+    "SBQQ__QuantityEditable__c": "true",
+    "SBQQ__QuantityScale__c": "0.0",
+    "SBQQ__ReconfigurationDisabled__c": "false",
+    "SBQQ__SortOrder__c": "",
+    "SBQQ__Specifications__c": "",
+    "SBQQ__SubscriptionBase__c": "List",
+    "SBQQ__SubscriptionCategory__c": "",
+    "SBQQ__SubscriptionPercent__c": "",
+    "SBQQ__SubscriptionPricing__c": "Fixed Price",
+    "SBQQ__SubscriptionTerm__c": "1.0",
+    "SBQQ__SubscriptionType__c": "Renewable",
+    "SBQQ__Taxable__c": "false",
+    "SBQQ__TaxCode__c": "",
+    "SBQQ__TermDiscountLevel__c": "",
+    "SBQQ__UpgradeRatio__c": "",
+    "StockKeepingUnit": ""
+  },
+  "References": [
+    {
+      "Name": "RecordTypeId",
+      "ReferencedObject": "RecordType",
+      "ReferencedFields": {
+        "Name": "BioPharma",
+        "SobjectType": "Product2"
+      }
+    },
+    {
+      "Name": "SBQQ__CostSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountCategory__r",
+      "ReferencedObject": "SBQQ__DiscountCategory__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__PricingGuidance__r",
+      "ReferencedObject": "SBQQ__PricingGuidance__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__RenewalProduct__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__SubscriptionTarget__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__TermDiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeCredit__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeSource__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeTarget__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "Object": "SBQQ__SummaryVariable__c",
+  "Fields": {
+    "GearsetDisplayName": "Account Management Fee Yearly Future Check",
+    "GearsetExternalId__c": "4AMIDEI1000005DD1a",
+    "Name": "Account Management Fee Yearly Future Check",
+    "SBQQ__AggregateField__c": "Quantity",
+    "SBQQ__AggregateFunction__c": "Count",
+    "SBQQ__CompositeOperator__c": "",
+    "SBQQ__ConstraintField__c": "",
+    "SBQQ__FilterField__c": "CheckFutureSubscription__c",
+    "SBQQ__FilterValue__c": "30",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__Scope__c": "Quote",
+    "SBQQ__TargetObject__c": "Subscription",
+    "SBQQ__ValueElement__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__CombineWith__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

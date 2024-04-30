@@ -1,0 +1,32 @@
+{
+  "Object": "SBQQ__ProductFeature__c",
+  "Fields": {
+    "GearsetDisplayName": "1-31 Day Supply - Tiers",
+    "GearsetExternalId__c": "AAI50ta1000005Do0a",
+    "Name": "Tiers",
+    "SBQQ__Category__c": "",
+    "SBQQ__ConfigurationFieldSet__c": "TierOptionConfiguration",
+    "SBQQ__DynamicProductFilterFieldSet__c": "",
+    "SBQQ__DynamicProductLookupFieldSet__c": "",
+    "SBQQ__MaxOptionCount__c": "",
+    "SBQQ__MinOptionCount__c": "1.0",
+    "SBQQ__Number__c": "10.0",
+    "SBQQ__OptionSelectionMethod__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ConfiguredSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "EAIf3Uh4000005Dt10"
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

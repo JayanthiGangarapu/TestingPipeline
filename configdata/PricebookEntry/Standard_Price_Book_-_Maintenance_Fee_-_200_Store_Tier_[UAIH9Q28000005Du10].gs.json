@@ -1,0 +1,26 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "GearsetDisplayName": "Standard Price Book - Maintenance Fee - 200 Store Tier",
+    "GearsetExternalId__c": "UAIH9Q28000005Du10",
+    "IsActive": "true",
+    "UnitPrice": "5000.0",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "AAIcd2l4000005Dt10"
+      }
+    }
+  ]
+}

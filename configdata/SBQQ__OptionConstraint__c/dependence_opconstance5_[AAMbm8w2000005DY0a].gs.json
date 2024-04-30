@@ -1,0 +1,35 @@
+{
+  "Object": "SBQQ__OptionConstraint__c",
+  "Fields": {
+    "GearsetDisplayName": "dependence opconstance5",
+    "GearsetExternalId__c": "AAMbm8w2000005DY0a",
+    "Name": "dependence opconstance5",
+    "SBQQ__Active__c": "true",
+    "SBQQ__CheckPriorPurchases__c": "false",
+    "SBQQ__OptionConstraintGroup__c": "",
+    "SBQQ__Type__c": "Dependency"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ConfiguredSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "AAIi0vk4000005Dt10"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainedOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "AAIf28b2000005Dp0a"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainingOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "AAIe28b2000005Dp0a"
+      }
+    }
+  ]
+}

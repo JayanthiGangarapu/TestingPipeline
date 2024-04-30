@@ -1,0 +1,35 @@
+{
+  "Object": "SBQQ__OptionConstraint__c",
+  "Fields": {
+    "GearsetDisplayName": "'Deduct Assist' component cannot be selected with 'Non-Enrolled'",
+    "GearsetExternalId__c": "AAMlba92000005DY0a",
+    "Name": "'Deduct Assist' component cannot be selected with 'Non-Enrolled'",
+    "SBQQ__Active__c": "true",
+    "SBQQ__CheckPriorPurchases__c": "false",
+    "SBQQ__OptionConstraintGroup__c": "",
+    "SBQQ__Type__c": "Exclusion"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ConfiguredSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "2AITIUh4000005Dt10"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainedOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "MAI4LKf2000005Dp0a"
+      }
+    },
+    {
+      "Name": "SBQQ__ConstrainingOption__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "MAIvKKf2000005Dp0a"
+      }
+    }
+  ]
+}
