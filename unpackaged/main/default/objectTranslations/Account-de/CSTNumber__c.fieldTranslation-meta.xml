@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to align accounts to CSTs. --></help>
+        <label><!-- CST Number --></label>
+        <name>CSTNumber__c</name>
+        <picklistValues>
+            <masterLabel>3PL</masterLabel>
+            <translation><!-- 3PL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 1</masterLabel>
+            <translation><!-- CST 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 10</masterLabel>
+            <translation><!-- CST 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 11</masterLabel>
+            <translation><!-- CST 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 12</masterLabel>
+            <translation><!-- CST 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 2</masterLabel>
+            <translation><!-- CST 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 3</masterLabel>
+            <translation><!-- CST 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 4</masterLabel>
+            <translation><!-- CST 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 5</masterLabel>
+            <translation><!-- CST 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 6</masterLabel>
+            <translation><!-- CST 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 7</masterLabel>
+            <translation><!-- CST 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 8</masterLabel>
+            <translation><!-- CST 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST 9</masterLabel>
+            <translation><!-- CST 9 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

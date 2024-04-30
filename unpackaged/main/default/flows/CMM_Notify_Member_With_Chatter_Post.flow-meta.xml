@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Create Chatter Post When Account Team Member is Added</description>
+        <name>Create_Chatter_Post</name>
+        <label>Create Chatter Post</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>var_chatterMessage</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <description>Notify Member when added in Account Teams through chatter post</description>
+    <environments>Default</environments>
+    <interviewLabel>CMM Notify Member With Chatter Post {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CMM Notify Member With Chatter Post</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Create_Chatter_Post</targetReference>
+        </connector>
+        <filterFormula>NOT({!$Setup.CMM_ObjectSaveMode__c.Is_Flow_Bypassed__c})</filterFormula>
+        <object>AccountTeamMember</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <description>Chatter Post Message Variable</description>
+        <name>var_chatterMessage</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hello @[{!$Record.UserId}], you have been added in Account Teams for {!$Record.Account.Name}</text>
+    </textTemplates>
+</Flow>

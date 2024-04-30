@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR01_RiskReasonRequired</fullName>
+    <active>true</active>
+    <description>#SAL-466 : Risk Reason field is required if Risk Level field is Medium or High.</description>
+    <errorConditionFormula>AND(
+     NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+     OR(
+         ISPICKVAL(RiskLevel__c, &#39;Medium&#39;),
+         ISPICKVAL(RiskLevel__c, &#39;High&#39;)
+     ),
+     ISBLANK( RiskReason__c )      
+)</errorConditionFormula>
+    <errorDisplayField>RiskReason__c</errorDisplayField>
+    <errorMessage>Risk Reason field is required if Risk Level field is Medium or High.</errorMessage>
+</ValidationRule>

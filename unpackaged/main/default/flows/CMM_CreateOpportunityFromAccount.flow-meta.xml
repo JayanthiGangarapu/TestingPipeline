@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionCalls>
+        <description>Navigate To New Opportunity Record</description>
+        <name>NavigateToNewOppRecord</name>
+        <label>Navigate To New Opp Record</label>
+        <locationX>176</locationX>
+        <locationY>458</locationY>
+        <actionName>c:CMM_RecordNavigationHandler</actionName>
+        <actionType>component</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>Create_Opp_Record</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>c:CMM_RecordNavigationHandler</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <description>#SAL-1212 CMM Create Opportunity From Account</description>
+    <dynamicChoiceSets>
+        <description>Opportunity Forecast Category</description>
+        <name>ForecastCategory</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true" />
+        <object xsi:nil="true" />
+        <picklistField>ForecastCategoryName</picklistField>
+        <picklistObject>Opportunity</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <description>Opportunity Lead Source</description>
+        <name>LeadSource</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true" />
+        <object xsi:nil="true" />
+        <picklistField>LeadSource</picklistField>
+        <picklistObject>Opportunity</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <description>Opportunity Stage</description>
+        <name>Stage</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true" />
+        <object xsi:nil="true" />
+        <picklistField>StageName</picklistField>
+        <picklistObject>Opportunity</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <description>Opportunity Type</description>
+        <name>Type</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true" />
+        <object xsi:nil="true" />
+        <picklistField>Type</picklistField>
+        <picklistObject>Opportunity</picklistObject>
+    </dynamicChoiceSets>
+    <environments>Default</environments>
+    <interviewLabel>CMM Create Opportunity From Account {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CMM Create Opportunity From Account</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <description>Create Opportunity Record</description>
+        <name>Create_Opp_Record</name>
+        <label>Create Opp Record</label>
+        <locationX>176</locationX>
+        <locationY>350</locationY>
+        <connector>
+            <targetReference>NavigateToNewOppRecord</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>OppCreateError</targetReference>
+        </faultConnector>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>Get_Account_Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Amount</field>
+            <value>
+                <elementReference>varOppAmount</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CloseDate</field>
+            <value>
+                <elementReference>varOppRecord.CloseDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ConsultantSourced__c</field>
+            <value>
+                <elementReference>varOppConsultantSourced</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ForecastCategoryName</field>
+            <value>
+                <elementReference>varForecastCategory</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LeadSource</field>
+            <value>
+                <elementReference>varLeadSource</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>varOppName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ProposalStatus__c</field>
+            <value>
+                <elementReference>varOppRecord.ProposalStatus__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ProposalTeamSupport__c</field>
+            <value>
+                <elementReference>varOppRecord.ProposalTeamSupport__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>StageName</field>
+            <value>
+                <stringValue>Qualify</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <elementReference>varOppType</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>VendorAccountName__c</field>
+            <value>
+                <elementReference>varOppRecord.VendorAccountName__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <description>Get Current Account Record</description>
+        <name>Get_Account_Record</name>
+        <label>Get Account Record</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>New_Opp_Screen</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>QueryErrorScreen</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <description>New Opportunity Screen</description>
+        <name>New_Opp_Screen</name>
+        <label>New Opp Screen</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Create_Opp_Record</targetReference>
+        </connector>
+        <fields>
+            <name>New_Opp_Screen_Section1</name>
+            <fieldType>RegionContainer</fieldType>
+            <fields>
+                <name>New_Opp_Screen_Section1_Column1</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <name>varOppName</name>
+                    <dataType>String</dataType>
+                    <defaultValue>
+                        <stringValue>{!Get_Account_Record.Name} - [BRAND] [SERVICE]</stringValue>
+                    </defaultValue>
+                    <fieldText>Opportunity Name</fieldText>
+                    <fieldType>InputField</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>true</isRequired>
+                </fields>
+                <fields>
+                    <name>varLeadSource</name>
+                    <choiceReferences>LeadSource</choiceReferences>
+                    <dataType>String</dataType>
+                    <defaultValue>
+                        <stringValue>Existing Relationship</stringValue>
+                    </defaultValue>
+                    <fieldText>Lead Source</fieldText>
+                    <fieldType>DropdownBox</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>true</isRequired>
+                </fields>
+                <fields>
+                    <name>varOppType</name>
+                    <choiceReferences>Type</choiceReferences>
+                    <dataType>String</dataType>
+                    <defaultValue>
+                        <stringValue>New Sale</stringValue>
+                    </defaultValue>
+                    <fieldText>Type</fieldText>
+                    <fieldType>DropdownBox</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>true</isRequired>
+                </fields>
+                <fields>
+                    <name>varOppConsultantSourced</name>
+                    <dataType>Boolean</dataType>
+                    <fieldText>Consultant Sourced</fieldText>
+                    <fieldType>InputField</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>true</isRequired>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>varOppRecord.VendorAccountName__c</objectFieldReference>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>varOppRecord.ProposalTeamSupport__c</objectFieldReference>
+                </fields>
+                <fields>
+                    <name>varOppAmount</name>
+                    <dataType>Currency</dataType>
+                    <fieldText>Amount</fieldText>
+                    <fieldType>InputField</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <scale>0</scale>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>6</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <fields>
+                <name>New_Opp_Screen_Section1_Column2</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <name>AccountName</name>
+                    <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: white; color: rgb(68, 68, 68); font-family: &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 9pt;&quot;&gt;Account Name&lt;/span&gt;&lt;/p&gt;&lt;p&gt;{!Get_Account_Record.Name}&lt;/p&gt;</fieldText>
+                    <fieldType>DisplayText</fieldType>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>varOppRecord.CloseDate</objectFieldReference>
+                </fields>
+                <fields>
+                    <name>varForecastCategory</name>
+                    <choiceReferences>ForecastCategory</choiceReferences>
+                    <dataType>String</dataType>
+                    <defaultValue>
+                        <stringValue>Unnamed_Pipeline</stringValue>
+                    </defaultValue>
+                    <fieldText>Forecast Category</fieldText>
+                    <fieldType>DropdownBox</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>true</isRequired>
+                </fields>
+                <fields>
+                    <name>oppStage</name>
+                    <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: white; color: rgb(68, 68, 68); font-family: &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 9pt;&quot;&gt;Stage&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Qualify&lt;/p&gt;</fieldText>
+                    <fieldType>DisplayText</fieldType>
+                </fields>
+                <fields>
+                    <name>varOppProbability</name>
+                    <dataType>Number</dataType>
+                    <defaultValue>
+                        <numberValue>20.0</numberValue>
+                    </defaultValue>
+                    <fieldText>Probability (%)</fieldText>
+                    <fieldType>InputField</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>true</isRequired>
+                    <scale>0</scale>
+                </fields>
+                <fields>
+                    <fieldType>ObjectProvided</fieldType>
+                    <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+                    <isRequired>false</isRequired>
+                    <objectFieldReference>varOppRecord.ProposalStatus__c</objectFieldReference>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>6</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <isRequired>false</isRequired>
+            <regionContainerType>SectionWithoutHeader</regionContainerType>
+        </fields>
+        <nextOrFinishButtonLabel>Save</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>OppCreateError</name>
+        <label>Create Error Screen</label>
+        <locationX>440</locationX>
+        <locationY>458</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>false</allowPause>
+        <backButtonLabel>Back</backButtonLabel>
+        <fields>
+            <name>ErrorMessage</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 14px; color: rgb(250, 2, 2);&quot;&gt;{!$Flow.FaultMessage}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>QueryErrorScreen</name>
+        <label>Query Error Screen</label>
+        <locationX>704</locationX>
+        <locationY>242</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>false</allowPause>
+        <backButtonLabel>Back</backButtonLabel>
+        <fields>
+            <name>QueryError</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 14px; color: rgb(253, 0, 0);&quot;&gt;{!$Flow.FaultMessage}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Account_Record</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>Current record Id</description>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Opportunity Proposal Status</description>
+        <name>varOppProposalStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Opportunity Proposal Team Support</description>
+        <name>varOppProposalTeamSupport</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Opportunity Record Variable</description>
+        <name>varOppRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+</Flow>

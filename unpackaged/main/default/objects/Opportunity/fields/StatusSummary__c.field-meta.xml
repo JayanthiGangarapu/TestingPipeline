@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusSummary__c</fullName>
+    <description>#SAL-701 - Field created for opportunity management Status Summary</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Summary of the opportunity&#39;s status and/or next steps</inlineHelpText>
+    <label>Status Summary</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

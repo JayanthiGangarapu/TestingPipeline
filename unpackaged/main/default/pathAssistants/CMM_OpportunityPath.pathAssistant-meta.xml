@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>CMM Opportunity Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <fieldNames>ContractStartDate__c</fieldNames>
+        <fieldNames>ContractEndDate__c</fieldNames>
+        <fieldNames>SBQQ__PrimaryQuote__c</fieldNames>
+        <fieldNames>PrimaryQuoteStatus__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Learn from customer and work with teammates to refine solution details (e.g., product options, projection data) and presentation.&lt;/li&gt;&lt;li&gt;Revise quote information to reflect anticipated dates / timing as well as proposed product configuration options, pricing, and transaction info / projection data.&lt;/li&gt;&lt;li&gt;Update Quote Status to &amp;quot;Review&amp;quot; to trigger internal approval processes; This will auto-advance Opportunity Stage to &amp;quot;Value Prop.&amp;quot;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Discovery</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <fieldNames>ContractStartDate__c</fieldNames>
+        <fieldNames>ContractEndDate__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <fieldNames>StatusSummary__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Potential for new business or a renewal sale has been identified&lt;/li&gt;&lt;li&gt;Initiate contact with customer to provide overview of services targeting specific drug(s)&lt;/li&gt;&lt;li&gt;Create quote draft with baseline service information&lt;/li&gt;&lt;li&gt;&lt;strong&gt;To add drugs, you MUST Quick Save your quote AFTER adding service info and BEFORE adding drugs.&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Opportunity Amount and Opportunity Products will reflect the information on your primary quote.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Qualify</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <fieldNames>ContractStartDate__c</fieldNames>
+        <fieldNames>ContractEndDate__c</fieldNames>
+        <fieldNames>SBQQ__PrimaryQuote__c</fieldNames>
+        <fieldNames>PrimaryQuoteStatus__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Quote is being reviewed for approval and/or auto-approves when applicable&lt;/li&gt;&lt;li&gt;Once quote is fully approved, Quote Status will auto-update to &amp;quot;Approved,&amp;quot; Opportunity Stage will auto-advance to &amp;quot;Negotiate,&amp;quot; and proposal with approved pricing can be finalized.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Value Proposition</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>BioPharma</recordTypeName>
+</PathAssistant>

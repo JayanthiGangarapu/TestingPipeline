@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_ProductCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>MDM_Master_Record_Id__c</fields>
+    <fields>MDM_Service_ID__c</fields>
+    <fields>MDM_Master_Record_type__c</fields>
+    <fields>MDM_Service_Channel__c</fields>
+    <fields>MDM_Service_Category__c</fields>
+    <label>CMM_ProductCompactLayout</label>
+</CompactLayout>

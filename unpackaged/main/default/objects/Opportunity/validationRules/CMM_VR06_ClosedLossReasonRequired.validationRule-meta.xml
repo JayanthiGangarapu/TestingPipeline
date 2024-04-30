@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR06_ClosedLossReasonRequired</fullName>
+    <active>true</active>
+    <description>#SAL-1197 Closed Lost Reason is required when marking an Opportunity as Closed Lost.</description>
+    <errorConditionFormula>AND(
+    NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+    AND(
+        ISCHANGED(StageName),
+        ISPICKVAL(StageName, &#39;Closed Lost&#39;),
+        ISBLANK(TEXT(Loss_Reason__c))
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Loss_Reason__c</errorDisplayField>
+    <errorMessage>Closed Lost Reason is required when marking an Opportunity as Closed Lost</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Stores how this account was named in RelayHealth&apos;s legacy Salesforce instance to help users find accounts in case the name now looks different. --></help>
+        <label><!-- Legacy RH Name --></label>
+        <name>MDM_Legacy_RH_Name__c</name>
+    </CustomFieldTranslation>

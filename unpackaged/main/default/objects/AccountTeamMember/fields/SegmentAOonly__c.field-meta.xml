@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SegmentAOonly__c</fullName>
+    <description>#SAL-462 - This is dependent field on Account Team Role.</description>
+    <externalId>false</externalId>
+    <label>Segment (AO only)</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>TeamMemberRole</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AMP</fullName>
+                <default>false</default>
+                <label>AMP</label>
+            </value>
+            <value>
+                <fullName>Affordability</fullName>
+                <default>false</default>
+                <label>Affordability</label>
+            </value>
+            <value>
+                <fullName>Copay</fullName>
+                <default>false</default>
+                <label>Copay</label>
+            </value>
+            <value>
+                <fullName>Core Hub</fullName>
+                <default>false</default>
+                <label>Core Hub</label>
+            </value>
+            <value>
+                <fullName>PA +/ Hub Express</fullName>
+                <default>false</default>
+                <label>PA +/ Hub Express</label>
+            </value>
+            <value>
+                <fullName>ProgramRx</fullName>
+                <default>false</default>
+                <label>ProgramRx</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Director Account Operations</controllingFieldValue>
+            <controllingFieldValue>Manager, Account Operations</controllingFieldValue>
+            <controllingFieldValue>Account Operations Manager</controllingFieldValue>
+            <valueName>AMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Director Account Operations</controllingFieldValue>
+            <controllingFieldValue>Manager, Account Operations</controllingFieldValue>
+            <controllingFieldValue>Account Operations Manager</controllingFieldValue>
+            <valueName>Affordability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Director Account Operations</controllingFieldValue>
+            <controllingFieldValue>Manager, Account Operations</controllingFieldValue>
+            <controllingFieldValue>Account Operations Manager</controllingFieldValue>
+            <valueName>Copay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Director Account Operations</controllingFieldValue>
+            <controllingFieldValue>Manager, Account Operations</controllingFieldValue>
+            <controllingFieldValue>Account Operations Manager</controllingFieldValue>
+            <valueName>Core Hub</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Director Account Operations</controllingFieldValue>
+            <controllingFieldValue>Manager, Account Operations</controllingFieldValue>
+            <controllingFieldValue>Account Operations Manager</controllingFieldValue>
+            <valueName>PA +/ Hub Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Director Account Operations</controllingFieldValue>
+            <controllingFieldValue>Manager, Account Operations</controllingFieldValue>
+            <controllingFieldValue>Account Operations Manager</controllingFieldValue>
+            <valueName>ProgramRx</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

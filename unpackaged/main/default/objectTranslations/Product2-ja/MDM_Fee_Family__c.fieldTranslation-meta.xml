@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fee Family --></label>
+        <name>MDM_Fee_Family__c</name>
+        <picklistValues>
+            <masterLabel>One Time</masterLabel>
+            <translation><!-- One Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Services</masterLabel>
+            <translation><!-- Other Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passthrough</masterLabel>
+            <translation><!-- Passthrough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription</masterLabel>
+            <translation><!-- Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription Based</masterLabel>
+            <translation><!-- Subscription Based --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction</masterLabel>
+            <translation><!-- Transaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage Based</masterLabel>
+            <translation><!-- Usage Based --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

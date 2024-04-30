@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProposalTeamSupport__c</fullName>
+    <description>#SAL-701 - Field created for opportunity management</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to request support for RFPs, RFIs, and Proactive Proposals.</inlineHelpText>
+    <label>Proposal Team Support</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Support Needed</fullName>
+                <default>false</default>
+                <label>No Support Needed</label>
+            </value>
+            <value>
+                <fullName>RFP</fullName>
+                <default>false</default>
+                <label>RFP</label>
+            </value>
+            <value>
+                <fullName>RFI</fullName>
+                <default>false</default>
+                <label>RFI</label>
+            </value>
+            <value>
+                <fullName>Proactive Proposal</fullName>
+                <default>false</default>
+                <label>Proactive Proposal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

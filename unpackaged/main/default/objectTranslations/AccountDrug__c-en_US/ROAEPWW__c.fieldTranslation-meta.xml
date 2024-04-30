@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ROA (EP - WW) --></label>
+        <name>ROAEPWW__c</name>
+        <picklistValues>
+            <masterLabel>Implant</masterLabel>
+            <translation><!-- Implant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In review</masterLabel>
+            <translation><!-- In review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inhalation</masterLabel>
+            <translation><!-- Inhalation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injection</masterLabel>
+            <translation><!-- Injection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intranasal</masterLabel>
+            <translation><!-- Intranasal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intraurethral</masterLabel>
+            <translation><!-- Intraurethral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ophthalmic</masterLabel>
+            <translation><!-- Ophthalmic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oral</masterLabel>
+            <translation><!-- Oral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otic</masterLabel>
+            <translation><!-- Otic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Topical</masterLabel>
+            <translation><!-- Topical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transdermal</masterLabel>
+            <translation><!-- Transdermal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transmucosal</masterLabel>
+            <translation><!-- Transmucosal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undisclosed</masterLabel>
+            <translation><!-- Undisclosed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

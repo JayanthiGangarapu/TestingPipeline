@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR08_ContractEndDateRequired</fullName>
+    <active>true</active>
+    <description>#SAL-1197 Contract End Date is required before moving to the Value Proposition stage.</description>
+    <errorConditionFormula>AND(
+    NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+    AND(
+        ISCHANGED(StageName),
+        ISPICKVAL(StageName, &#39;Value Proposition&#39;),
+        ISBLANK(ContractEndDate__c)
+    )
+)</errorConditionFormula>
+    <errorDisplayField>ContractEndDate__c</errorDisplayField>
+    <errorMessage>Contract End Date is required before moving to the Value Proposition stage</errorMessage>
+</ValidationRule>

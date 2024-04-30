@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDM_Fee_Family__c</fullName>
+    <externalId>false</externalId>
+    <label>Fee Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Transaction</fullName>
+                <default>false</default>
+                <label>Transaction</label>
+            </value>
+            <value>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+            <value>
+                <fullName>Other Services</fullName>
+                <default>false</default>
+                <label>Other Services</label>
+            </value>
+            <value>
+                <fullName>One Time</fullName>
+                <default>false</default>
+                <label>One Time</label>
+            </value>
+            <value>
+                <fullName>Subscription Based</fullName>
+                <default>false</default>
+                <label>Subscription Based</label>
+            </value>
+            <value>
+                <fullName>Usage Based</fullName>
+                <default>false</default>
+                <label>Usage Based</label>
+            </value>
+            <value>
+                <fullName>Passthrough</fullName>
+                <default>false</default>
+                <label>Passthrough</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

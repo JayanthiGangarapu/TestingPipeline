@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Lifecycle Category --></label>
+        <name>LifecycleCategory__c</name>
+        <picklistValues>
+            <masterLabel>Abandoned</masterLabel>
+            <translation><!-- Abandoned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approaching LOE</masterLabel>
+            <translation><!-- Approaching LOE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed</masterLabel>
+            <translation><!-- Disposed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOE</masterLabel>
+            <translation><!-- LOE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch</masterLabel>
+            <translation><!-- Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mature</masterLabel>
+            <translation><!-- Mature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Life</masterLabel>
+            <translation><!-- Mid-Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended</masterLabel>
+            <translation><!-- Suspended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred</masterLabel>
+            <translation><!-- Transferred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unclassified</masterLabel>
+            <translation><!-- Unclassified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Mature</masterLabel>
+            <translation><!-- Very Mature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

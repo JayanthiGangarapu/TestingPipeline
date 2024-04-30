@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDM_Business_Line__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Line</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3PL</fullName>
+                <default>false</default>
+                <label>3PL</label>
+            </value>
+            <value>
+                <fullName>Access &amp; Adherence</fullName>
+                <default>false</default>
+                <label>Access &amp; Adherence</label>
+            </value>
+            <value>
+                <fullName>Affordability</fullName>
+                <default>false</default>
+                <label>Affordability</label>
+            </value>
+            <value>
+                <fullName>Biologics</fullName>
+                <default>false</default>
+                <label>Biologics</label>
+            </value>
+            <value>
+                <fullName>Distribution</fullName>
+                <default>false</default>
+                <label>Distribution</label>
+            </value>
+            <value>
+                <fullName>GPO</fullName>
+                <default>false</default>
+                <label>GPO</label>
+            </value>
+            <value>
+                <fullName>Life Sciences Solutions</fullName>
+                <default>false</default>
+                <label>Life Sciences Solutions</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Provider Solutions</fullName>
+                <default>false</default>
+                <label>Provider Solutions</label>
+            </value>
+            <value>
+                <fullName>Pharmacy &amp; Affordability</fullName>
+                <default>false</default>
+                <label>Pharmacy &amp; Affordability</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

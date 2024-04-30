@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DevelopmentPhase__c</fullName>
+    <description>#SAL-650 Development Phase picklist</description>
+    <externalId>false</externalId>
+    <label>Development Phase</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abandoned - Approved</fullName>
+                <default>false</default>
+                <label>Abandoned - Approved</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Filed</fullName>
+                <default>false</default>
+                <label>Abandoned - Filed</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Phase I</fullName>
+                <default>false</default>
+                <label>Abandoned - Phase I</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Phase II</fullName>
+                <default>false</default>
+                <label>Abandoned - Phase II</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Phase III</fullName>
+                <default>false</default>
+                <label>Abandoned - Phase III</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Pre-clinical</fullName>
+                <default>false</default>
+                <label>Abandoned - Pre-clinical</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Pre-filing (generics)</fullName>
+                <default>false</default>
+                <label>Abandoned - Pre-filing (generics)</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Research project</fullName>
+                <default>false</default>
+                <label>Abandoned - Research project</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Unclassified</fullName>
+                <default>false</default>
+                <label>Abandoned - Unclassified</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Disposed - Approved</fullName>
+                <default>false</default>
+                <label>Disposed - Approved</label>
+            </value>
+            <value>
+                <fullName>Disposed - Filed</fullName>
+                <default>false</default>
+                <label>Disposed - Filed</label>
+            </value>
+            <value>
+                <fullName>Disposed - Marketed</fullName>
+                <default>false</default>
+                <label>Disposed - Marketed</label>
+            </value>
+            <value>
+                <fullName>Disposed - Phase I</fullName>
+                <default>false</default>
+                <label>Disposed - Phase I</label>
+            </value>
+            <value>
+                <fullName>Disposed - Phase II</fullName>
+                <default>false</default>
+                <label>Disposed - Phase II</label>
+            </value>
+            <value>
+                <fullName>Disposed - Phase III</fullName>
+                <default>false</default>
+                <label>Disposed - Phase III</label>
+            </value>
+            <value>
+                <fullName>Disposed - Pre-clinical</fullName>
+                <default>false</default>
+                <label>Disposed - Pre-clinical</label>
+            </value>
+            <value>
+                <fullName>Disposed - Pre-filing (generics)</fullName>
+                <default>false</default>
+                <label>Disposed - Pre-filing (generics)</label>
+            </value>
+            <value>
+                <fullName>Disposed - Research project</fullName>
+                <default>false</default>
+                <label>Disposed - Research project</label>
+            </value>
+            <value>
+                <fullName>Disposed - Unclassified</fullName>
+                <default>false</default>
+                <label>Disposed - Unclassified</label>
+            </value>
+            <value>
+                <fullName>Filed</fullName>
+                <default>false</default>
+                <label>Filed</label>
+            </value>
+            <value>
+                <fullName>Marketed</fullName>
+                <default>false</default>
+                <label>Marketed</label>
+            </value>
+            <value>
+                <fullName>Not in Development (USA)</fullName>
+                <default>false</default>
+                <label>Not in Development (USA)</label>
+            </value>
+            <value>
+                <fullName>Phase I</fullName>
+                <default>false</default>
+                <label>Phase I</label>
+            </value>
+            <value>
+                <fullName>Phase II</fullName>
+                <default>false</default>
+                <label>Phase II</label>
+            </value>
+            <value>
+                <fullName>Phase III</fullName>
+                <default>false</default>
+                <label>Phase III</label>
+            </value>
+            <value>
+                <fullName>Pre-clinical</fullName>
+                <default>false</default>
+                <label>Pre-clinical</label>
+            </value>
+            <value>
+                <fullName>Pre-filing (generics)</fullName>
+                <default>false</default>
+                <label>Pre-filing (generics)</label>
+            </value>
+            <value>
+                <fullName>Research project</fullName>
+                <default>false</default>
+                <label>Research project</label>
+            </value>
+            <value>
+                <fullName>Suspended - Filed</fullName>
+                <default>false</default>
+                <label>Suspended - Filed</label>
+            </value>
+            <value>
+                <fullName>Suspended - Phase I</fullName>
+                <default>false</default>
+                <label>Suspended - Phase I</label>
+            </value>
+            <value>
+                <fullName>Suspended - Phase II</fullName>
+                <default>false</default>
+                <label>Suspended - Phase II</label>
+            </value>
+            <value>
+                <fullName>Suspended - Phase III</fullName>
+                <default>false</default>
+                <label>Suspended - Phase III</label>
+            </value>
+            <value>
+                <fullName>Suspended - Pre-clinical</fullName>
+                <default>false</default>
+                <label>Suspended - Pre-clinical</label>
+            </value>
+            <value>
+                <fullName>Suspended - Research project</fullName>
+                <default>false</default>
+                <label>Suspended - Research project</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Approved</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Approved</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Filed</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Filed</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Marketed</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Marketed</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Phase I</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Phase I</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Phase II</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Phase II</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Phase III</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Phase III</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Pre-clinical</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Pre-clinical</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Pre-filing (generics)</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Pre-filing (generics)</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Research project</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Research project</label>
+            </value>
+            <value>
+                <fullName>Transferred (M&amp;A) - Unclassified</fullName>
+                <default>false</default>
+                <label>Transferred (M&amp;A) - Unclassified</label>
+            </value>
+            <value>
+                <fullName>Unclassified</fullName>
+                <default>false</default>
+                <label>Unclassified</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

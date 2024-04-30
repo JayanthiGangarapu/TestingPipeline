@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Therapeutic Category --></label>
+        <name>TherapeuticCategory__c</name>
+        <picklistValues>
+            <masterLabel>Blood</masterLabel>
+            <translation><!-- Blood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cardiovascular</masterLabel>
+            <translation><!-- Cardiovascular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Nervous System</masterLabel>
+            <translation><!-- Central Nervous System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dermatology</masterLabel>
+            <translation><!-- Dermatology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endocrine</masterLabel>
+            <translation><!-- Endocrine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastro-Intestinal</masterLabel>
+            <translation><!-- Gastro-Intestinal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genito-Urinary</masterLabel>
+            <translation><!-- Genito-Urinary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immunomodulators</masterLabel>
+            <translation><!-- Immunomodulators --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Musculoskeletal</masterLabel>
+            <translation><!-- Musculoskeletal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncology</masterLabel>
+            <translation><!-- Oncology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respiratory</masterLabel>
+            <translation><!-- Respiratory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensory Organs</masterLabel>
+            <translation><!-- Sensory Organs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systemic Anti-infectives</masterLabel>
+            <translation><!-- Systemic Anti-infectives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Various</masterLabel>
+            <translation><!-- Various --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

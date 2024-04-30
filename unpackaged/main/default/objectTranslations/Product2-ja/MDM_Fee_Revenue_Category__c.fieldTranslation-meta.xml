@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fee Revenue Category --></label>
+        <name>MDM_Fee_Revenue_Category__c</name>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ER</masterLabel>
+            <translation><!-- ER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIN</masterLabel>
+            <translation><!-- MIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRC</masterLabel>
+            <translation><!-- MRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUI</masterLabel>
+            <translation><!-- SUI --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sales Channel --></label>
+        <name>MDM_Service_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Access &amp; Adherence</masterLabel>
+            <translation><!-- Access &amp; Adherence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Affordability</masterLabel>
+            <translation><!-- Affordability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biologics</masterLabel>
+            <translation><!-- Biologics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution</masterLabel>
+            <translation><!-- Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GPO</masterLabel>
+            <translation><!-- GPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Sciences Solutions</masterLabel>
+            <translation><!-- Life Sciences Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy &amp; Affordability</masterLabel>
+            <translation><!-- Pharmacy &amp; Affordability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Solutions</masterLabel>
+            <translation><!-- Provider Solutions --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

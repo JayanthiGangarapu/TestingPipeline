@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDM_Legacy_RxC_Name__c</fullName>
+    <description>SAL-467 - This is mastered field populated from MDM</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores how this account was named in RxC&#39;s legacy Salesforce instance to help users find accounts in case the name now looks different.</inlineHelpText>
+    <label>Legacy RxC Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

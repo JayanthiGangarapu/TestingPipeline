@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Send Push Notification to the Account Team Member which was added</description>
+        <name>Send_Push_Notification</name>
+        <label>Send Push Notification</label>
+        <locationX>176</locationX>
+        <locationY>539</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <faultConnector>
+            <targetReference>Push_Notification_Error</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>Get_Custom_Notification.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>var_recipientIds</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Account Teams Notification</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>var_notificationBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <assignments>
+        <description>Set the Recipient Ids with the  Account Team Member User Ids</description>
+        <name>Set_Recipient_Ids</name>
+        <label>Set Recipient Ids</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignmentItems>
+            <assignToReference>var_recipientIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.UserId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Custom_Notification</targetReference>
+        </connector>
+    </assignments>
+    <customErrors>
+        <description>Get Records Error</description>
+        <name>Get_Records_Error</name>
+        <label>Get Records Error</label>
+        <locationX>704</locationX>
+        <locationY>539</locationY>
+        <customErrorMessages>
+            <errorMessage>Error in fetching Custom Notification: {!$Flow.FaultMessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <customErrors>
+        <description>Push Notification Error</description>
+        <name>Push_Notification_Error</name>
+        <label>Push Notification Error</label>
+        <locationX>440</locationX>
+        <locationY>647</locationY>
+        <customErrorMessages>
+            <errorMessage>Error sending Push Notification : 
+{!$Flow.FaultMessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <description>#SAL-462 - CMM Send Push Notification To newly added Members</description>
+    <environments>Default</environments>
+    <interviewLabel>CMM Send Push Notification To Members {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CMM Send Push Notification To Members</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Get Account Team Member Custom Notification</description>
+        <name>Get_Custom_Notification</name>
+        <label>Get Custom Notification</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Push_Notification</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Get_Records_Error</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CMM_AccountTeamMemberPushNotification</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_Recipient_Ids</targetReference>
+        </connector>
+        <filterFormula>NOT({!$Setup.CMM_ObjectSaveMode__c.IsFlowBypassed__c})</filterFormula>
+        <object>AccountTeamMember</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <description>Notification Content</description>
+        <name>var_notificationBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hello {!$Record.User.FirstName} {!$Record.User.LastName}, you have been added in Account Teams for {!$Record.Account.Name}</text>
+    </textTemplates>
+    <variables>
+        <description>List of Recipients Ids</description>
+        <name>var_recipientIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

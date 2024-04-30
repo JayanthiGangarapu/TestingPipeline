@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Any other names this account may be known by (e.g., former names, international names) --></help>
+        <label><!-- Other Names --></label>
+        <name>MDM_Other_Names__c</name>
+    </CustomFieldTranslation>

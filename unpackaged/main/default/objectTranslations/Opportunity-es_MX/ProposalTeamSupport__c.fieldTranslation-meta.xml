@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to request support for RFPs, RFIs, and Proactive Proposals. --></help>
+        <label><!-- Proposal Team Support --></label>
+        <name>ProposalTeamSupport__c</name>
+        <picklistValues>
+            <masterLabel>No Support Needed</masterLabel>
+            <translation><!-- No Support Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proactive Proposal</masterLabel>
+            <translation><!-- Proactive Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFI</masterLabel>
+            <translation><!-- RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP</masterLabel>
+            <translation><!-- RFP --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

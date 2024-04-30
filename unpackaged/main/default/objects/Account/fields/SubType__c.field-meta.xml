@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubType__c</fullName>
+    <description>This field is created as part of SAL-464 : Account Management - Billing Information</description>
+    <externalId>false</externalId>
+    <label>Sub-Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>340B</fullName>
+                <default>false</default>
+                <label>340B</label>
+            </value>
+            <value>
+                <fullName>Long Term Care</fullName>
+                <default>false</default>
+                <label>Long Term Care</label>
+            </value>
+            <value>
+                <fullName>Mail Order</fullName>
+                <default>false</default>
+                <label>Mail Order</label>
+            </value>
+            <value>
+                <fullName>PBM - OP</fullName>
+                <default>false</default>
+                <label>PBM - OP</label>
+            </value>
+            <value>
+                <fullName>Processor</fullName>
+                <default>false</default>
+                <label>Processor</label>
+            </value>
+            <value>
+                <fullName>Recon</fullName>
+                <default>false</default>
+                <label>Recon</label>
+            </value>
+            <value>
+                <fullName>Specialty Pharma</fullName>
+                <default>false</default>
+                <label>Specialty Pharma</label>
+            </value>
+            <value>
+                <fullName>Specialty Pharmacy</fullName>
+                <default>false</default>
+                <label>Specialty Pharmacy</label>
+            </value>
+            <value>
+                <fullName>TrOOP</fullName>
+                <default>false</default>
+                <label>TrOOP</label>
+            </value>
+            <value>
+                <fullName>Digital Pharmacy</fullName>
+                <default>false</default>
+                <label>Digital Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Saving SeekerRX Channel Partner</fullName>
+                <default>false</default>
+                <label>Saving SeekerRX Channel Partner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

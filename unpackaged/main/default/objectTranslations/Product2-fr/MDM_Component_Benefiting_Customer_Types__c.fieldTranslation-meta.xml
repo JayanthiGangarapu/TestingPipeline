@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Component Benefiting Customer Types --></label>
+        <name>MDM_Component_Benefiting_Customer_Types__c</name>
+        <picklistValues>
+            <masterLabel>Biopharma</masterLabel>
+            <translation><!-- Biopharma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Discount Card Company</masterLabel>
+            <translation><!-- Cash Discount Card Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chain Pharmacy</masterLabel>
+            <translation><!-- Chain Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GPO</masterLabel>
+            <translation><!-- GPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health System</masterLabel>
+            <translation><!-- Health System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent Pharmacy</masterLabel>
+            <translation><!-- Independent Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Supply Vendor</masterLabel>
+            <translation><!-- Medical Supply Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outpatient Pharmacy</masterLabel>
+            <translation><!-- Outpatient Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient</masterLabel>
+            <translation><!-- Patient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payer</masterLabel>
+            <translation><!-- Payer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharma</masterLabel>
+            <translation><!-- Pharma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharma,Pharmacy</masterLabel>
+            <translation><!-- Pharma,Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy Benefit Manager</masterLabel>
+            <translation><!-- Pharmacy Benefit Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician Vendor</masterLabel>
+            <translation><!-- Physician Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider</masterLabel>
+            <translation><!-- Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation><!-- Reseller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Pharmacy</masterLabel>
+            <translation><!-- Retail Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switch</masterLabel>
+            <translation><!-- Switch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telehealth</masterLabel>
+            <translation><!-- Telehealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

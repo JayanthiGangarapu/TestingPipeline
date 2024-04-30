@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <constants>
+        <name>ACCOUNT_RECORD_TYPE_OTHER</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Other</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <description>Check for account record type and assign to specific queue</description>
+        <name>Check_For_Account_Record_Type</name>
+        <label>Check For Account Record Type</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Get_MDM_queue_details</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Account Type Not Other</defaultConnectorLabel>
+        <rules>
+            <name>Account_Type_Other</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AccountRecordType__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>ACCOUNT_RECORD_TYPE_OTHER</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Sales_Ops_Queue_Details</targetReference>
+            </connector>
+            <label>Account Type Other</label>
+        </rules>
+    </decisions>
+    <description>This is generic flow which will fire the assignment logic when Case is created via Global Action as due to Salesforce limitation, standard case assignment rule is not forced when Case is created through Global Action.</description>
+    <environments>Default</environments>
+    <interviewLabel>CMM Case Assignment For Global Action {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CMM Case Assignment For Global Action</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Get the details of required MDM queue for the case ownership assignment</description>
+        <name>Get_MDM_queue_details</name>
+        <label>Get MDM queue details</label>
+        <locationX>314</locationX>
+        <locationY>395</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Account_Owner_To_MDM_Intake_Queue</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Label.CMM_MDM_Intake_Queue_Name</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Queue</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Group</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Get the details of required Sales Ops queue for the case ownership assignment</description>
+        <name>Get_Sales_Ops_Queue_Details</name>
+        <label>Get Sales Ops Queue Details</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Account_Owner_To_Sales_Ops_Queue</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Label.CMM_Sales_Ops_Intake_Queue_Name</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Queue</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Group</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <description>Update Account owner to MDM Intake Queue</description>
+        <name>Update_Account_Owner_To_MDM_Intake_Queue</name>
+        <label>Update Account Owner To MDM Intake Queue</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Get_MDM_queue_details.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Update Account Owner to Sales Ops queue</description>
+        <name>Update_Account_Owner_To_Sales_Ops_Queue</name>
+        <label>Update Account Owner To Sales Ops Queue</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Get_Sales_Ops_Queue_Details.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_For_Account_Record_Type</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

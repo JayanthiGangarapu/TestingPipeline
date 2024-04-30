@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Service Type --></label>
+        <name>MDM_Service_Bundle_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bundled Services</masterLabel>
+            <translation><!-- Bundled Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Service</masterLabel>
+            <translation><!-- Partial Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Service</masterLabel>
+            <translation><!-- Single Service --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

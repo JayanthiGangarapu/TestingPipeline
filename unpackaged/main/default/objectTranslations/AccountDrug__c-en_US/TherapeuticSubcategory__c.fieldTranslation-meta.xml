@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Therapeutic Subcategory --></label>
+        <name>TherapeuticSubcategory__c</name>
+        <picklistValues>
+            <masterLabel>ACE inhibitors</masterLabel>
+            <translation><!-- ACE inhibitors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alkaloids</masterLabel>
+            <translation><!-- Alkaloids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alkylating agents</masterLabel>
+            <translation><!-- Alkylating agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anaesthetics</masterLabel>
+            <translation><!-- Anaesthetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angiotensin II antagonists</masterLabel>
+            <translation><!-- Angiotensin II antagonists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antacids &amp; anti-ulcerants</masterLabel>
+            <translation><!-- Antacids &amp; anti-ulcerants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-Parkinson&#39;s agents</masterLabel>
+            <translation><!-- Anti-Parkinson&apos;s agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-acne preparations</masterLabel>
+            <translation><!-- Anti-acne preparations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-anaemics</masterLabel>
+            <translation><!-- Anti-anaemics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-angiogenics</masterLabel>
+            <translation><!-- Anti-angiogenics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-bacterials</masterLabel>
+            <translation><!-- Anti-bacterials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-cholinergics</masterLabel>
+            <translation><!-- Anti-cholinergics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-coagulants</masterLabel>
+            <translation><!-- Anti-coagulants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-depressants</masterLabel>
+            <translation><!-- Anti-depressants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-diabetics</masterLabel>
+            <translation><!-- Anti-diabetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-diarrhoeals</masterLabel>
+            <translation><!-- Anti-diarrhoeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-emetics</masterLabel>
+            <translation><!-- Anti-emetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-epileptics</masterLabel>
+            <translation><!-- Anti-epileptics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-fibrinolytics</masterLabel>
+            <translation><!-- Anti-fibrinolytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-fungals</masterLabel>
+            <translation><!-- Anti-fungals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-gout preparations</masterLabel>
+            <translation><!-- Anti-gout preparations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-histamines</masterLabel>
+            <translation><!-- Anti-histamines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-hyperlipidaemics</masterLabel>
+            <translation><!-- Anti-hyperlipidaemics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-leukotrienes</masterLabel>
+            <translation><!-- Anti-leukotrienes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-metabolites</masterLabel>
+            <translation><!-- Anti-metabolites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-migraine preparations</masterLabel>
+            <translation><!-- Anti-migraine preparations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-obesity agents</masterLabel>
+            <translation><!-- Anti-obesity agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-parasitics</masterLabel>
+            <translation><!-- Anti-parasitics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-psoriasis agents</masterLabel>
+            <translation><!-- Anti-psoriasis agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-psychotics</masterLabel>
+            <translation><!-- Anti-psychotics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-spasmodics &amp; anti-cholinergics</masterLabel>
+            <translation><!-- Anti-spasmodics &amp; anti-cholinergics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-virals</masterLabel>
+            <translation><!-- Anti-virals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2 stimulants</masterLabel>
+            <translation><!-- B2 stimulants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beta blockers</masterLabel>
+            <translation><!-- Beta blockers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blood substitutes</masterLabel>
+            <translation><!-- Blood substitutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bone regulators</masterLabel>
+            <translation><!-- Bone regulators --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calcitonins</masterLabel>
+            <translation><!-- Calcitonins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calcium antagonists</masterLabel>
+            <translation><!-- Calcium antagonists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cardiac therapy</masterLabel>
+            <translation><!-- Cardiac therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerebral &amp; peripheral vasotherapeutics</masterLabel>
+            <translation><!-- Cerebral &amp; peripheral vasotherapeutics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cholagogues</masterLabel>
+            <translation><!-- Cholagogues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corticoids</masterLabel>
+            <translation><!-- Corticoids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cytotoxic antibiotics</masterLabel>
+            <translation><!-- Cytotoxic antibiotics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostic imaging</masterLabel>
+            <translation><!-- Diagnostic imaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diet supplements</masterLabel>
+            <translation><!-- Diet supplements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diuretics</masterLabel>
+            <translation><!-- Diuretics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ear/Otic preparations</masterLabel>
+            <translation><!-- Ear/Otic preparations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emollients &amp; wound healing agents</masterLabel>
+            <translation><!-- Emollients &amp; wound healing agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eye/Ophthalmic preparations</masterLabel>
+            <translation><!-- Eye/Ophthalmic preparations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female sex hormones</masterLabel>
+            <translation><!-- Female sex hormones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fertility agents</masterLabel>
+            <translation><!-- Fertility agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fibrinolytics</masterLabel>
+            <translation><!-- Fibrinolytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastro-intestinal anti-inflammatories</masterLabel>
+            <translation><!-- Gastro-intestinal anti-inflammatories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genito-urinary anti-infectives</masterLabel>
+            <translation><!-- Genito-urinary anti-infectives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glucagons</masterLabel>
+            <translation><!-- Glucagons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth hormones</masterLabel>
+            <translation><!-- Growth hormones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hormonal contraceptives</masterLabel>
+            <translation><!-- Hormonal contraceptives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hormone therapies</masterLabel>
+            <translation><!-- Hormone therapies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immuno-oncology</masterLabel>
+            <translation><!-- Immuno-oncology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immunostimulants</masterLabel>
+            <translation><!-- Immunostimulants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immunosuppressants</masterLabel>
+            <translation><!-- Immunosuppressants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interferons</masterLabel>
+            <translation><!-- Interferons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laxatives</masterLabel>
+            <translation><!-- Laxatives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS Therapies</masterLabel>
+            <translation><!-- MS Therapies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male sex hormones</masterLabel>
+            <translation><!-- Male sex hormones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muscle relaxant, central</masterLabel>
+            <translation><!-- Muscle relaxant, central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muscle relaxant, peripheral</masterLabel>
+            <translation><!-- Muscle relaxant, peripheral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narcotic analgesics</masterLabel>
+            <translation><!-- Narcotic analgesics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nasal &amp; Throat preparations</masterLabel>
+            <translation><!-- Nasal &amp; Throat preparations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-narcotic analgesics</masterLabel>
+            <translation><!-- Non-narcotic analgesics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-steroidal anti-inflammatories</masterLabel>
+            <translation><!-- Non-steroidal anti-inflammatories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-steroidal respiratory anti-inflammatories</masterLabel>
+            <translation><!-- Non-steroidal respiratory anti-inflammatories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nootropics</masterLabel>
+            <translation><!-- Nootropics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other CNS drugs</masterLabel>
+            <translation><!-- Other CNS drugs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other anti-cancers</masterLabel>
+            <translation><!-- Other anti-cancers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other anti-hypertensives</masterLabel>
+            <translation><!-- Other anti-hypertensives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other anti-infectives</masterLabel>
+            <translation><!-- Other anti-infectives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other anti-rheumatics</masterLabel>
+            <translation><!-- Other anti-rheumatics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other bronchodilators</masterLabel>
+            <translation><!-- Other bronchodilators --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other cancer treatments</masterLabel>
+            <translation><!-- Other cancer treatments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other cardiovasculars</masterLabel>
+            <translation><!-- Other cardiovasculars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other dermatologicals</masterLabel>
+            <translation><!-- Other dermatologicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other gastro-intestinal agents</masterLabel>
+            <translation><!-- Other gastro-intestinal agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other genito-urinary agents</masterLabel>
+            <translation><!-- Other genito-urinary agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other haematologicals</masterLabel>
+            <translation><!-- Other haematologicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other hormone preparations</masterLabel>
+            <translation><!-- Other hormone preparations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other musculoskeletal agents</masterLabel>
+            <translation><!-- Other musculoskeletal agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other respiratory agents</masterLabel>
+            <translation><!-- Other respiratory agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other therapeutic products</masterLabel>
+            <translation><!-- Other therapeutic products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pituitary &amp; Hypothalamic hormones</masterLabel>
+            <translation><!-- Pituitary &amp; Hypothalamic hormones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plasma expanders</masterLabel>
+            <translation><!-- Plasma expanders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platelet aggregation inhibitors</masterLabel>
+            <translation><!-- Platelet aggregation inhibitors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum compounds</masterLabel>
+            <translation><!-- Platinum compounds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prostatic therapies</masterLabel>
+            <translation><!-- Prostatic therapies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protein kinase inhibitors</masterLabel>
+            <translation><!-- Protein kinase inhibitors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychostimulants</masterLabel>
+            <translation><!-- Psychostimulants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radiopharmaceuticals</masterLabel>
+            <translation><!-- Radiopharmaceuticals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sedatives &amp; hypnotics</masterLabel>
+            <translation><!-- Sedatives &amp; hypnotics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sera &amp; gammaglobulins</masterLabel>
+            <translation><!-- Sera &amp; gammaglobulins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sexual dysfunction</masterLabel>
+            <translation><!-- Sexual dysfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systemic corticosteroids</masterLabel>
+            <translation><!-- Systemic corticosteroids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thyroid therapeutics</masterLabel>
+            <translation><!-- Thyroid therapeutics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Topical anti-infectives</masterLabel>
+            <translation><!-- Topical anti-infectives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Topical corticosteroids</masterLabel>
+            <translation><!-- Topical corticosteroids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tranquilisers</masterLabel>
+            <translation><!-- Tranquilisers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccines</masterLabel>
+            <translation><!-- Vaccines --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

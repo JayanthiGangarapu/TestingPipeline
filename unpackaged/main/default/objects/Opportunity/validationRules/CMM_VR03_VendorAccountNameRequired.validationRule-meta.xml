@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR03_VendorAccountNameRequired</fullName>
+    <active>true</active>
+    <description>#SAL-1205 - The vendor account name field will need to be populate with an account if the Consultant Sourced Checkbox if checked.</description>
+    <errorConditionFormula>AND(
+    NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+    AND(
+        ConsultantSourced__c = TRUE,
+        ISBLANK(VendorAccountName__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>When the &quot;Consultant-Sourced&quot; checkbox is selected, you must add the Vendor Account
+information.</errorMessage>
+</ValidationRule>

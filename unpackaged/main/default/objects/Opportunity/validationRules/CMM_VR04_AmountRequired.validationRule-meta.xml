@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR04_AmountRequired</fullName>
+    <active>true</active>
+    <description>#SAL-1197 Amount required when moving from Discovery to Value Prop Stage</description>
+    <errorConditionFormula>AND(
+    NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+    AND(
+        ISCHANGED(StageName),
+        OR(
+            ISPICKVAL(StageName, &#39;Value Proposition&#39;),
+            ISPICKVAL(StageName, &#39;Discovery&#39;)
+        ),
+        ISBLANK(Amount)
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Amount</errorDisplayField>
+    <errorMessage>To move out of this stage the Amount field is required</errorMessage>
+</ValidationRule>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LifecycleCategory__c</fullName>
+    <description>#SAL-650 Life Cycle Category</description>
+    <externalId>false</externalId>
+    <label>Lifecycle Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abandoned</fullName>
+                <default>false</default>
+                <label>Abandoned</label>
+            </value>
+            <value>
+                <fullName>Approaching LOE</fullName>
+                <default>false</default>
+                <label>Approaching LOE</label>
+            </value>
+            <value>
+                <fullName>Development</fullName>
+                <default>false</default>
+                <label>Development</label>
+            </value>
+            <value>
+                <fullName>Disposed</fullName>
+                <default>false</default>
+                <label>Disposed</label>
+            </value>
+            <value>
+                <fullName>Launch</fullName>
+                <default>false</default>
+                <label>Launch</label>
+            </value>
+            <value>
+                <fullName>LOE</fullName>
+                <default>false</default>
+                <label>LOE</label>
+            </value>
+            <value>
+                <fullName>Mature</fullName>
+                <default>false</default>
+                <label>Mature</label>
+            </value>
+            <value>
+                <fullName>Mid-Life</fullName>
+                <default>false</default>
+                <label>Mid-Life</label>
+            </value>
+            <value>
+                <fullName>Suspended</fullName>
+                <default>false</default>
+                <label>Suspended</label>
+            </value>
+            <value>
+                <fullName>Transferred</fullName>
+                <default>false</default>
+                <label>Transferred</label>
+            </value>
+            <value>
+                <fullName>Unclassified</fullName>
+                <default>false</default>
+                <label>Unclassified</label>
+            </value>
+            <value>
+                <fullName>Very Mature</fullName>
+                <default>false</default>
+                <label>Very Mature</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

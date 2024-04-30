@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Development Phase --></label>
+        <name>DevelopmentPhase__c</name>
+        <picklistValues>
+            <masterLabel>Abandoned - Approved</masterLabel>
+            <translation><!-- Abandoned - Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abandoned - Filed</masterLabel>
+            <translation><!-- Abandoned - Filed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abandoned - Phase I</masterLabel>
+            <translation><!-- Abandoned - Phase I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abandoned - Phase II</masterLabel>
+            <translation><!-- Abandoned - Phase II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abandoned - Phase III</masterLabel>
+            <translation><!-- Abandoned - Phase III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abandoned - Pre-clinical</masterLabel>
+            <translation><!-- Abandoned - Pre-clinical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abandoned - Pre-filing (generics)</masterLabel>
+            <translation><!-- Abandoned - Pre-filing (generics) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abandoned - Research project</masterLabel>
+            <translation><!-- Abandoned - Research project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abandoned - Unclassified</masterLabel>
+            <translation><!-- Abandoned - Unclassified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Approved</masterLabel>
+            <translation><!-- Disposed - Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Filed</masterLabel>
+            <translation><!-- Disposed - Filed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Marketed</masterLabel>
+            <translation><!-- Disposed - Marketed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Phase I</masterLabel>
+            <translation><!-- Disposed - Phase I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Phase II</masterLabel>
+            <translation><!-- Disposed - Phase II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Phase III</masterLabel>
+            <translation><!-- Disposed - Phase III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Pre-clinical</masterLabel>
+            <translation><!-- Disposed - Pre-clinical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Pre-filing (generics)</masterLabel>
+            <translation><!-- Disposed - Pre-filing (generics) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Research project</masterLabel>
+            <translation><!-- Disposed - Research project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposed - Unclassified</masterLabel>
+            <translation><!-- Disposed - Unclassified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Filed</masterLabel>
+            <translation><!-- Filed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketed</masterLabel>
+            <translation><!-- Marketed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not in Development (USA)</masterLabel>
+            <translation><!-- Not in Development (USA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase I</masterLabel>
+            <translation><!-- Phase I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase II</masterLabel>
+            <translation><!-- Phase II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase III</masterLabel>
+            <translation><!-- Phase III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-clinical</masterLabel>
+            <translation><!-- Pre-clinical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-filing (generics)</masterLabel>
+            <translation><!-- Pre-filing (generics) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research project</masterLabel>
+            <translation><!-- Research project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended - Filed</masterLabel>
+            <translation><!-- Suspended - Filed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended - Phase I</masterLabel>
+            <translation><!-- Suspended - Phase I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended - Phase II</masterLabel>
+            <translation><!-- Suspended - Phase II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended - Phase III</masterLabel>
+            <translation><!-- Suspended - Phase III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended - Pre-clinical</masterLabel>
+            <translation><!-- Suspended - Pre-clinical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended - Research project</masterLabel>
+            <translation><!-- Suspended - Research project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Approved</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Filed</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Filed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Marketed</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Marketed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Phase I</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Phase I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Phase II</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Phase II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Phase III</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Phase III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Pre-clinical</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Pre-clinical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Pre-filing (generics)</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Pre-filing (generics) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Research project</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Research project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred (M&amp;A) - Unclassified</masterLabel>
+            <translation><!-- Transferred (M&amp;A) - Unclassified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unclassified</masterLabel>
+            <translation><!-- Unclassified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

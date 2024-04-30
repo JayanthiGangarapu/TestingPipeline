@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Account hierarchy: This field is populated by the highest or &quot;ultimate&quot; parent in the hierarchy of the account whose page you&apos;re viewing. --></help>
+        <label><!-- Ultimate Parent --></label>
+        <name>MDM_Ultimate_Parent__c</name>
+        <relationshipLabel><!-- Accounts (Ultimate Parent) --></relationshipLabel>
+    </CustomFieldTranslation>

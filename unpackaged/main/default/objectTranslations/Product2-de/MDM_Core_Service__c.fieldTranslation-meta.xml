@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Target Bucket --></label>
+        <name>MDM_Core_Service__c</name>
+        <picklistValues>
+            <masterLabel>3PL Non-Title</masterLabel>
+            <translation><!-- 3PL Non-Title --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3PL Title</masterLabel>
+            <translation><!-- 3PL Title --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMP</masterLabel>
+            <translation><!-- AMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biologics</masterLabel>
+            <translation><!-- Biologics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CoPay</masterLabel>
+            <translation><!-- CoPay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Hub</masterLabel>
+            <translation><!-- Core Hub --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Hub - Other</masterLabel>
+            <translation><!-- Core Hub - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution</masterLabel>
+            <translation><!-- Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GPO</masterLabel>
+            <translation><!-- GPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HubExpress</masterLabel>
+            <translation><!-- HubExpress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ontada</masterLabel>
+            <translation><!-- Ontada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA +</masterLabel>
+            <translation><!-- PA + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA + Other</masterLabel>
+            <translation><!-- PA + Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payer</masterLabel>
+            <translation><!-- Payer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Pharmacy</masterLabel>
+            <translation><!-- Program Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Pharmacy - Other</masterLabel>
+            <translation><!-- Program Pharmacy - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider</masterLabel>
+            <translation><!-- Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eVoucher</masterLabel>
+            <translation><!-- eVoucher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eVoucher - Other</masterLabel>
+            <translation><!-- eVoucher - Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

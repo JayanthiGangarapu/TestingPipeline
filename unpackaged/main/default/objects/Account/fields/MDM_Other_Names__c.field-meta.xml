@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDM_Other_Names__c</fullName>
+    <description>SAL-467 - This is mastered field populated from MDM</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Any other names this account may be known by (e.g., former names, international names)</inlineHelpText>
+    <label>Other Names</label>
+    <length>1200</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

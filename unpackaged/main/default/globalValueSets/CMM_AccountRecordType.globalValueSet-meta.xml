@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>BioPharma</fullName>
+        <default>false</default>
+        <label>BioPharma</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>#452 - Global value set created to identify the customer record type</description>
+    <masterLabel>Account Record Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

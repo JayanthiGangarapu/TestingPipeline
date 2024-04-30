@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LegalName__c</fullName>
+    <description>#SAL-466 - This field shows the legal name for this account, and also matches the name used in Legacy CMM&#39;s Salesforce instance (if found in Legacy CMM)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field shows the legal name for this account, and also matches the name used in Legacy CMM&#39;s Salesforce instance (if found in Legacy CMM)</inlineHelpText>
+    <label>Legal Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

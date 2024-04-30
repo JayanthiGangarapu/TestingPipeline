@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology__c</fullName>
+    <description>#SAL-650 Technology</description>
+    <externalId>false</externalId>
+    <label>Technology</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cell therapy</fullName>
+                <default>false</default>
+                <label>Cell therapy</label>
+            </value>
+            <value>
+                <fullName>DNA &amp; RNA therapeutics</fullName>
+                <default>false</default>
+                <label>DNA &amp; RNA therapeutics</label>
+            </value>
+            <value>
+                <fullName>Gene therapy</fullName>
+                <default>false</default>
+                <label>Gene therapy</label>
+            </value>
+            <value>
+                <fullName>Gene-Modified Cell Therapy</fullName>
+                <default>false</default>
+                <label>Gene-Modified Cell Therapy</label>
+            </value>
+            <value>
+                <fullName>Genome Editing</fullName>
+                <default>false</default>
+                <label>Genome Editing</label>
+            </value>
+            <value>
+                <fullName>In vivo diagnostics</fullName>
+                <default>false</default>
+                <label>In vivo diagnostics</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Monoclonal antibody</fullName>
+                <default>false</default>
+                <label>Monoclonal antibody</label>
+            </value>
+            <value>
+                <fullName>Oncolytic Virus</fullName>
+                <default>false</default>
+                <label>Oncolytic Virus</label>
+            </value>
+            <value>
+                <fullName>Other biotechnology product</fullName>
+                <default>false</default>
+                <label>Other biotechnology product</label>
+            </value>
+            <value>
+                <fullName>Plant extract</fullName>
+                <default>false</default>
+                <label>Plant extract</label>
+            </value>
+            <value>
+                <fullName>Plasma-derived therapy</fullName>
+                <default>false</default>
+                <label>Plasma-derived therapy</label>
+            </value>
+            <value>
+                <fullName>Protein &amp; peptide therapeutics</fullName>
+                <default>false</default>
+                <label>Protein &amp; peptide therapeutics</label>
+            </value>
+            <value>
+                <fullName>Recombinant antibody</fullName>
+                <default>false</default>
+                <label>Recombinant antibody</label>
+            </value>
+            <value>
+                <fullName>Small molecule chemistry</fullName>
+                <default>false</default>
+                <label>Small molecule chemistry</label>
+            </value>
+            <value>
+                <fullName>Transgenic product</fullName>
+                <default>false</default>
+                <label>Transgenic product</label>
+            </value>
+            <value>
+                <fullName>Vaccine</fullName>
+                <default>false</default>
+                <label>Vaccine</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

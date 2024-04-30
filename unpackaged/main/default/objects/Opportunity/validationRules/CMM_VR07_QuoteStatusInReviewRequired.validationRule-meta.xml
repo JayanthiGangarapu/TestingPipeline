@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR07_QuoteStatusInReviewRequired</fullName>
+    <active>true</active>
+    <description>#SAL-1197 The validation rule checks to see if the ‘Quote Status’ field on the opportunity is ‘In Review’ to be able to move the opportunity manually from Discovery to Value Proposition.</description>
+    <errorConditionFormula>AND(
+    NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+    AND(
+        ISCHANGED(StageName),
+        ISPICKVAL(StageName, &#39;Value Proposition&#39;),
+        PrimaryQuoteStatus__c &lt;&gt; &#39;In Review&#39;
+    )
+)</errorConditionFormula>
+    <errorMessage>The Quote Status must be ‘In Review&#39; to move from &#39;Discovery&#39; to &#39;Value Proposition’</errorMessage>
+</ValidationRule>

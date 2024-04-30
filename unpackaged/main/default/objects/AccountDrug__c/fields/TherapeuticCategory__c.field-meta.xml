@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TherapeuticCategory__c</fullName>
+    <description>#SAL-650 Therapeutic Category</description>
+    <externalId>false</externalId>
+    <label>Therapeutic Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blood</fullName>
+                <default>false</default>
+                <label>Blood</label>
+            </value>
+            <value>
+                <fullName>Cardiovascular</fullName>
+                <default>false</default>
+                <label>Cardiovascular</label>
+            </value>
+            <value>
+                <fullName>Central Nervous System</fullName>
+                <default>false</default>
+                <label>Central Nervous System</label>
+            </value>
+            <value>
+                <fullName>Dermatology</fullName>
+                <default>false</default>
+                <label>Dermatology</label>
+            </value>
+            <value>
+                <fullName>Endocrine</fullName>
+                <default>false</default>
+                <label>Endocrine</label>
+            </value>
+            <value>
+                <fullName>Gastro-Intestinal</fullName>
+                <default>false</default>
+                <label>Gastro-Intestinal</label>
+            </value>
+            <value>
+                <fullName>Genito-Urinary</fullName>
+                <default>false</default>
+                <label>Genito-Urinary</label>
+            </value>
+            <value>
+                <fullName>Immunomodulators</fullName>
+                <default>false</default>
+                <label>Immunomodulators</label>
+            </value>
+            <value>
+                <fullName>Musculoskeletal</fullName>
+                <default>false</default>
+                <label>Musculoskeletal</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <label>Oncology</label>
+            </value>
+            <value>
+                <fullName>Respiratory</fullName>
+                <default>false</default>
+                <label>Respiratory</label>
+            </value>
+            <value>
+                <fullName>Sensory Organs</fullName>
+                <default>false</default>
+                <label>Sensory Organs</label>
+            </value>
+            <value>
+                <fullName>Systemic Anti-infectives</fullName>
+                <default>false</default>
+                <label>Systemic Anti-infectives</label>
+            </value>
+            <value>
+                <fullName>Various</fullName>
+                <default>false</default>
+                <label>Various</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

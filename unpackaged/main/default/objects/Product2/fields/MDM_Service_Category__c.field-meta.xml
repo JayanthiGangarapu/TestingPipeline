@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDM_Service_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Service Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adjudicated Pharmacy</fullName>
+                <default>false</default>
+                <label>Adjudicated Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Claims Network</fullName>
+                <default>false</default>
+                <label>Claims Network</label>
+            </value>
+            <value>
+                <fullName>Clinical Trial</fullName>
+                <default>false</default>
+                <label>Clinical Trial</label>
+            </value>
+            <value>
+                <fullName>Commercial Pharmacy</fullName>
+                <default>false</default>
+                <label>Commercial Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Digital Pharmacy</fullName>
+                <default>false</default>
+                <label>Digital Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Electronic Prior Authorization</fullName>
+                <default>false</default>
+                <label>Electronic Prior Authorization</label>
+            </value>
+            <value>
+                <fullName>Fee For Service Billing</fullName>
+                <default>false</default>
+                <label>Fee For Service Billing</label>
+            </value>
+            <value>
+                <fullName>Free Goods</fullName>
+                <default>false</default>
+                <label>Free Goods</label>
+            </value>
+            <value>
+                <fullName>Hub Services</fullName>
+                <default>false</default>
+                <label>Hub Services</label>
+            </value>
+            <value>
+                <fullName>Innovation Roadmap</fullName>
+                <default>false</default>
+                <label>Innovation Roadmap</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pass Through Billing</fullName>
+                <default>false</default>
+                <label>Pass Through Billing</label>
+            </value>
+            <value>
+                <fullName>Patient Financial Assistance</fullName>
+                <default>false</default>
+                <label>Patient Financial Assistance</label>
+            </value>
+            <value>
+                <fullName>Payer Products</fullName>
+                <default>false</default>
+                <label>Payer Products</label>
+            </value>
+            <value>
+                <fullName>Pharma Group Purchasing</fullName>
+                <default>false</default>
+                <label>Pharma Group Purchasing</label>
+            </value>
+            <value>
+                <fullName>Pharmacy Automation</fullName>
+                <default>false</default>
+                <label>Pharmacy Automation</label>
+            </value>
+            <value>
+                <fullName>Pharmacy Network</fullName>
+                <default>false</default>
+                <label>Pharmacy Network</label>
+            </value>
+            <value>
+                <fullName>Prescriber Support</fullName>
+                <default>false</default>
+                <label>Prescriber Support</label>
+            </value>
+            <value>
+                <fullName>Prescription Decision Support</fullName>
+                <default>false</default>
+                <label>Prescription Decision Support</label>
+            </value>
+            <value>
+                <fullName>Provider Engagement</fullName>
+                <default>false</default>
+                <label>Provider Engagement</label>
+            </value>
+            <value>
+                <fullName>Provider Solutions</fullName>
+                <default>false</default>
+                <label>Provider Solutions</label>
+            </value>
+            <value>
+                <fullName>Real-World Data</fullName>
+                <default>false</default>
+                <label>Real-World Data</label>
+            </value>
+            <value>
+                <fullName>Real-World Research</fullName>
+                <default>false</default>
+                <label>Real-World Research</label>
+            </value>
+            <value>
+                <fullName>Safety Monitoring</fullName>
+                <default>false</default>
+                <label>Safety Monitoring</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Solutions</fullName>
+                <default>false</default>
+                <label>Supply Chain Solutions</label>
+            </value>
+            <value>
+                <fullName>Therapy Adherence</fullName>
+                <default>false</default>
+                <label>Therapy Adherence</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

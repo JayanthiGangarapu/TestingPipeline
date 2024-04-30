@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Service Category --></label>
+        <name>MDM_Service_Category__c</name>
+        <picklistValues>
+            <masterLabel>Adjudicated Pharmacy</masterLabel>
+            <translation><!-- Adjudicated Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims Network</masterLabel>
+            <translation><!-- Claims Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical Trial</masterLabel>
+            <translation><!-- Clinical Trial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Pharmacy</masterLabel>
+            <translation><!-- Commercial Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Pharmacy</masterLabel>
+            <translation><!-- Digital Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic Prior Authorization</masterLabel>
+            <translation><!-- Electronic Prior Authorization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fee For Service Billing</masterLabel>
+            <translation><!-- Fee For Service Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Goods</masterLabel>
+            <translation><!-- Free Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hub Services</masterLabel>
+            <translation><!-- Hub Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation Roadmap</masterLabel>
+            <translation><!-- Innovation Roadmap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass Through Billing</masterLabel>
+            <translation><!-- Pass Through Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Financial Assistance</masterLabel>
+            <translation><!-- Patient Financial Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payer Products</masterLabel>
+            <translation><!-- Payer Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharma Group Purchasing</masterLabel>
+            <translation><!-- Pharma Group Purchasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy Automation</masterLabel>
+            <translation><!-- Pharmacy Automation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy Network</masterLabel>
+            <translation><!-- Pharmacy Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescriber Support</masterLabel>
+            <translation><!-- Prescriber Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescription Decision Support</masterLabel>
+            <translation><!-- Prescription Decision Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Engagement</masterLabel>
+            <translation><!-- Provider Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Solutions</masterLabel>
+            <translation><!-- Provider Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real-World Data</masterLabel>
+            <translation><!-- Real-World Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real-World Research</masterLabel>
+            <translation><!-- Real-World Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Monitoring</masterLabel>
+            <translation><!-- Safety Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain Solutions</masterLabel>
+            <translation><!-- Supply Chain Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Therapy Adherence</masterLabel>
+            <translation><!-- Therapy Adherence --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

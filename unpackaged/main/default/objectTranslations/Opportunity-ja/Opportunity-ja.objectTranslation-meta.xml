@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CPQ Opportunity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Salesforce CPQ Information --></label>
+            <section>Salesforce CPQ Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Quote --></label>
+        <name>CMM_NewQuote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Quote R --></label>
+        <name>Create_Quote_R</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Quote --></label>
+        <name>New_Quote_Deprecated</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- BioPharma record type that controls visibility for Bio Pharma users --></description>
+        <label><!-- BioPharma --></label>
+        <name>BioPharma</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- A Primary Quote draft with configured services is needed to move from &apos;Qualify&apos; to &apos;Discovery&apos; --></errorMessage>
+        <name>CMM_VR01_PrimaryQuoteRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status Summary is required before moving to the Discovery stage. --></errorMessage>
+        <name>CMM_VR02_StatusSummaryRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When the &quot;Consultant-Sourced&quot; checkbox is selected, you must add the Vendor Account
+information. --></errorMessage>
+        <name>CMM_VR03_VendorAccountNameRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To move out of this stage the Amount field is required --></errorMessage>
+        <name>CMM_VR04_AmountRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Date is required before moving to the Discovery stage. --></errorMessage>
+        <name>CMM_VR05_CloseDateRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Lost Reason is required when marking an Opportunity as Closed Lost --></errorMessage>
+        <name>CMM_VR06_ClosedLossReasonRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Quote Status must be ‘In Review&apos; to move from &apos;Discovery&apos; to &apos;Value Proposition’ --></errorMessage>
+        <name>CMM_VR07_QuoteStatusInReviewRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract End Date is required before moving to the Value Proposition stage --></errorMessage>
+        <name>CMM_VR08_ContractEndDateRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract Start Date is required before moving to the Discovery stage. --></errorMessage>
+        <name>CMM_VR09_ContractStartDateRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If the Proposal Team Support is RFP, RFI, or Proactive Proposal then the Proposal Status field is required --></errorMessage>
+        <name>CMM_VR10_ProposalStatusRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Quote Status must be &apos;Approved&apos; to move from &apos;Value Proposition&apos; to &apos;Negotiate&apos; --></errorMessage>
+        <name>CMM_VR11_QuoteStatusInApprovedRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure you have associated a drug to the relevant services --></errorMessage>
+        <name>CMM_VR12_AccountDrugRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

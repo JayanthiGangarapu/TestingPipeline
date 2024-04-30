@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to keep track of and report on top accounts. --></help>
+        <label><!-- Account Rank --></label>
+        <name>MDM_Account_Rank__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_AccountDrugCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>MDM_Drug_Record_Name__c</fields>
+    <fields>GenericName__c</fields>
+    <fields>DevelopmentPhase__c</fields>
+    <fields>Technology__c</fields>
+    <fields>TherapeuticCategory__c</fields>
+    <label>CMM Account Drug Compact Layout</label>
+</CompactLayout>

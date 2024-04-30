@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Novelty --></label>
+        <name>Novelty__c</name>
+        <picklistValues>
+            <masterLabel>Biosimilars</masterLabel>
+            <translation><!-- Biosimilars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generics</masterLabel>
+            <translation><!-- Generics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NDA</masterLabel>
+            <translation><!-- NDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Derivative</masterLabel>
+            <translation><!-- New Derivative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New molecular entity</masterLabel>
+            <translation><!-- New molecular entity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

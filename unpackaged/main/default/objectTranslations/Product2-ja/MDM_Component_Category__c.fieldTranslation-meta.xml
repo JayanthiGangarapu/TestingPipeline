@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Component Category --></label>
+        <name>MDM_Component_Category__c</name>
+        <picklistValues>
+            <masterLabel>Core Component</masterLabel>
+            <translation><!-- Core Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Included Feature</masterLabel>
+            <translation><!-- Included Feature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Component</masterLabel>
+            <translation><!-- Paid Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Option</masterLabel>
+            <translation><!-- Service Option --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

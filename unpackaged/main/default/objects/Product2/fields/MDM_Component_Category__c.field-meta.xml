@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDM_Component_Category__c</fullName>
+    <description>Created as part of SAL-623  for Sales Rep to Assign Component Category to the components.so that I can organize and categorize components effectively</description>
+    <externalId>false</externalId>
+    <label>Component Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Core Component</fullName>
+                <default>false</default>
+                <label>Core Component</label>
+            </value>
+            <value>
+                <fullName>Paid Component</fullName>
+                <default>false</default>
+                <label>Paid Component</label>
+            </value>
+            <value>
+                <fullName>Service Option</fullName>
+                <default>false</default>
+                <label>Service Option</label>
+            </value>
+            <value>
+                <fullName>Included Feature</fullName>
+                <default>false</default>
+                <label>Included Feature</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

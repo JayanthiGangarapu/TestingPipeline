@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Check if a user is a Sales Ops and provides edit option to fields like account record type, owner</description>
+    <isLicensed>false</isLicensed>
+    <label>Has Sales Ops Permission</label>
+</CustomPermission>

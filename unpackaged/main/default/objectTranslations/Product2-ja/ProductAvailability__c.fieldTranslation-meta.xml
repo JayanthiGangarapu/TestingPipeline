@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Availability --></label>
+        <name>ProductAvailability__c</name>
+        <picklistValues>
+            <masterLabel>Enable New to Therapy</masterLabel>
+            <translation><!-- Enable New to Therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal Only</masterLabel>
+            <translation><!-- Renewal Only --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

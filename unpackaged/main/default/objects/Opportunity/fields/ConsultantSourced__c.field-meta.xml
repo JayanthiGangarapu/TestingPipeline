@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConsultantSourced__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>#SAL-701 Consultant Sourced</description>
+    <externalId>false</externalId>
+    <label>Consultant Sourced</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

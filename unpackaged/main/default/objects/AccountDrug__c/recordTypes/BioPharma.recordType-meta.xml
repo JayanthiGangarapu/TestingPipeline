@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BioPharma</fullName>
+    <active>true</active>
+    <description>BioPharma record type for Account Drugs</description>
+    <label>BioPharma</label>
+    <picklistValues>
+        <picklist>DevelopmentPhase__c</picklist>
+        <values>
+            <fullName>Abandoned - Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Pre-filing %28generics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Marketed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Pre-filing %28generics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not in Development %28USA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-filing %28generics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Marketed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Pre-filing %28generics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawn</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LifecycleCategory__c</picklist>
+        <values>
+            <fullName>Abandoned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approaching LOE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very Mature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawn</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MDM_Benefit_Type__c</picklist>
+        <values>
+            <fullName>Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Novelty__c</picklist>
+        <values>
+            <fullName>Biosimilars</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Derivative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New molecular entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ROABMTUS__c</picklist>
+        <values>
+            <fullName>Hemoperfusion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inhaled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injectable - Unspecified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instillation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intra-Cisterna Magna %28ICM%29 Injection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intra-amniotic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intraarterial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intraarticular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intracameral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intracavitary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intracerebral%2Fcerebroventricular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intracochlear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intradermal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intradiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intraintestinal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intralymphatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intramuscular %28IM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intranasal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intranodal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intraocular%2FSubretinal%2FSubconjunctival</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrathecal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intratracheal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intratumoral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intratympanic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intraurethral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrauterine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intravaginal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intravenous %28IV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intravesical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intravitreal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oral %28PO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Percutaneous Catheter%2FInjection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rectal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subcutaneous %28SQ%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subcutaneous %28SQ%29 - Unspecified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subcutaneous %28SQ%29 Infusion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subcutaneous %28SQ%29 Injection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sublingual %28SL%29%2FOral Transmucosal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submucosal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical Implantation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Topical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transdermal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ROAEPWW__c</picklist>
+        <values>
+            <fullName>Implant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inhalation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intranasal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intraurethral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ophthalmic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Topical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transdermal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transmucosal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undisclosed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Specialty__c</picklist>
+        <values>
+            <fullName>Likely</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Likely</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Specialty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Elite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Lite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Technology__c</picklist>
+        <values>
+            <fullName>Cell therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNA %26 RNA therapeutics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gene therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gene-Modified Cell Therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genome Editing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In vivo diagnostics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monoclonal antibody</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oncolytic Virus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other biotechnology product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plant extract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plasma-derived therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protein %26 peptide therapeutics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recombinant antibody</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small molecule chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgenic product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vaccine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TherapeuticCategory__c</picklist>
+        <values>
+            <fullName>Blood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiovascular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Nervous System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dermatology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endocrine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gastro-Intestinal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genito-Urinary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immunomodulators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Musculoskeletal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Respiratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensory Organs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Systemic Anti-infectives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Various</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TherapeuticSubcategory__c</picklist>
+        <values>
+            <fullName>ACE inhibitors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alkaloids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alkylating agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anaesthetics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Angiotensin II antagonists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antacids %26 anti-ulcerants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-Parkinson%27s agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-acne preparations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-anaemics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-angiogenics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-bacterials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-cholinergics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-coagulants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-depressants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-diabetics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-diarrhoeals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-emetics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-epileptics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-fibrinolytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-fungals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-gout preparations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-histamines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-hyperlipidaemics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-leukotrienes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-metabolites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-migraine preparations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-obesity agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-parasitics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-psoriasis agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-psychotics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-spasmodics %26 anti-cholinergics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-virals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2 stimulants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beta blockers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood substitutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone regulators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calcitonins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calcium antagonists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiac therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerebral %26 peripheral vasotherapeutics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cholagogues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corticoids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cytotoxic antibiotics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diagnostic imaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diet supplements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diuretics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ear%2FOtic preparations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emollients %26 wound healing agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eye%2FOphthalmic preparations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Female sex hormones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fertility agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibrinolytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gastro-intestinal anti-inflammatories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genito-urinary anti-infectives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glucagons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth hormones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hormonal contraceptives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hormone therapies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immuno-oncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immunostimulants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immunosuppressants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interferons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laxatives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS Therapies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male sex hormones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Muscle relaxant%2C central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Muscle relaxant%2C peripheral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Narcotic analgesics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nasal %26 Throat preparations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-narcotic analgesics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-steroidal anti-inflammatories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-steroidal respiratory anti-inflammatories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nootropics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other CNS drugs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other anti-cancers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other anti-hypertensives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other anti-infectives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other anti-rheumatics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other bronchodilators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other cancer treatments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other cardiovasculars</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other dermatologicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other gastro-intestinal agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other genito-urinary agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other haematologicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other hormone preparations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other musculoskeletal agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other respiratory agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other therapeutic products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pituitary %26 Hypothalamic hormones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plasma expanders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platelet aggregation inhibitors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum compounds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prostatic therapies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protein kinase inhibitors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychostimulants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radiopharmaceuticals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sedatives %26 hypnotics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sera %26 gammaglobulins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sexual dysfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Systemic corticosteroids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thyroid therapeutics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Topical anti-infectives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Topical corticosteroids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tranquilisers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vaccines</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>UnifiedStatus__c</picklist>
+        <values>
+            <fullName>Abandoned - Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Pre-filing %28generics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abandoned - Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Not in Development %28USA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Pre-filing %28generics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Marketed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Pre-filing %28generics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposed - Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketed - Approaching LOE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketed - LOE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketed - Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketed - Mature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketed - Mid-Life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketed - Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketed - Very Mature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Filed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Marketed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Pre-clinical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Pre-filing %28generics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Research project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferred %28M%26A%29 - Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unclassified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawn</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Send email to the user who created the case if case is closed</description>
+        <name>Notify_Case_Creator_On_Case_Close</name>
+        <label>Notify Case Creator On Case Close</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <faultConnector>
+            <targetReference>Show_Error_For_Email</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.CreatedBy.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>Case_Closure_Subject</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>CaseClosureBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>logEmailOnSend</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <constants>
+        <description>Record type developer name for case record type &#39;Account Creation request&#39;</description>
+        <name>RECORDTYPE_NAME_ACCOUNT_CREATION</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AccountCreationRequest</stringValue>
+        </value>
+    </constants>
+    <customErrors>
+        <description>Show error message if email was not sent</description>
+        <name>Show_Error_For_Email</name>
+        <label>Show Error For Email</label>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
+        <customErrorMessages>
+            <errorMessage>There was some error while notifying the case requester who created the case. Please retry.
+{!$Flow.FaultMessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <decisions>
+        <description>Check for Case record type</description>
+        <name>Check_Case_Record_Type</name>
+        <label>Check Case Record Type</label>
+        <locationX>314</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Account_Creation_Request</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>RECORDTYPE_NAME_ACCOUNT_CREATION</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Notify_Case_Creator_On_Case_Close</targetReference>
+            </connector>
+            <label>Account Creation Request</label>
+        </rules>
+    </decisions>
+    <description>#SAL-452 - Flow to notify the case requester when &#39;Account Creation Request&#39; type case is closed.</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Subject for case closure email notification</description>
+        <name>Case_Closure_Subject</name>
+        <dataType>String</dataType>
+        <expression>&#39;Case #&#39; + {!$Record.CaseNumber} + &#39; has been closed&#39;</expression>
+    </formulas>
+    <formulas>
+        <description>Link to the case record</description>
+        <name>CaseLink</name>
+        <dataType>String</dataType>
+        <expression>LEFT($Api.Partner_Server_URL_260, FIND( &#39;/services&#39;, $Api.Partner_Server_URL_260)) &amp; {!$Record.Id}</expression>
+    </formulas>
+    <interviewLabel>Case Closure Notification For Account Creation Request {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case Closure Notification For Account Creation Request</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Case_Record_Type</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>NOT({!$Setup.CMM_ObjectSaveMode__c.IsFlowBypassed__c}) &amp;&amp; TEXT({!$Record.Status}) = &#39;Closed&#39;</filterFormula>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <description>Email body for the case closure email notification</description>
+        <name>CaseClosureBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;p&gt;Dear {!$Record.CreatedBy.FirstName} &lt;span style=&quot;color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;{!$Record.CreatedBy.LastName}&lt;/span&gt;,&lt;/p&gt;&lt;p&gt;The request for creating an account has been successfully processed. The details have been successfully applied to the account named &quot;{!$Record.NewAccountName__c}&quot;.&amp;nbsp;&lt;/p&gt;&lt;p&gt;To access this case, please use the following link :&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;{!CaseLink}&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;{!CaseLink}&lt;/a&gt;&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

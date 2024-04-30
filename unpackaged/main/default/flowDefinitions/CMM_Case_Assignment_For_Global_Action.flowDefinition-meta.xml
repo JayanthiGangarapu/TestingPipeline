@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is generic flow which will fire the assignment logic when Case is created via Global Action as due to Salesforce limitation, standard case assignment rule is not forced when Case is created through Global Action.</description>
+    <masterLabel>Case Assignment For Global Action</masterLabel>
+</FlowDefinition>

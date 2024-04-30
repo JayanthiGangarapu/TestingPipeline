@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fee Revenue Subcategory --></label>
+        <name>MDM_Fee_Revenue_Subcategory__c</name>
+        <picklistValues>
+            <masterLabel>AR-ST</masterLabel>
+            <translation><!-- AR-ST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ER-ST</masterLabel>
+            <translation><!-- ER-ST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIN-PRC</masterLabel>
+            <translation><!-- MIN-PRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIN-VOL</masterLabel>
+            <translation><!-- MIN-VOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRC-ONE</masterLabel>
+            <translation><!-- MRC-ONE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRC-SPC</masterLabel>
+            <translation><!-- MRC-SPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRC-STD</masterLabel>
+            <translation><!-- MRC-STD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRC-YR</masterLabel>
+            <translation><!-- MRC-YR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUI-SPC</masterLabel>
+            <translation><!-- SUI-SPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUI-STD</masterLabel>
+            <translation><!-- SUI-STD --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CMM_ContactConsolidatedExtendedGroupSharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share all contact (every single record type on the object) with &#39;Extended Contact Share Consolidated&#39; in READ/WRITE mode.</description>
+        <label>Contact Consolidated Extended Group Sharing</label>
+        <sharedTo>
+            <group>CMM_ExtendedContactShareConsolidated</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BioPharma,Other</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CMM_ContactConsolidatedGroupSharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share all contact (every single record type on the object) with &#39;Contact Share Consolidated&#39; group in READ mode.</description>
+        <label>Contact Consolidated Group Sharing</label>
+        <sharedTo>
+            <group>CMM_ContactShareConsolidated</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BioPharma,Other</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

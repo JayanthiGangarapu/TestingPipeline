@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR02_StatusSummaryRequired</fullName>
+    <active>true</active>
+    <description>#SAL-1205 - The Status Summary field on the opportunity object is required before moving to the Discovery stage from the Qualify stage.</description>
+    <errorConditionFormula>AND(
+    NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+    AND(
+        ISCHANGED(StageName),
+        ISPICKVAL(StageName, &#39;Discovery&#39;),
+        ISBLANK(StatusSummary__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>Status Summary is required before moving to the Discovery stage.</errorMessage>
+</ValidationRule>

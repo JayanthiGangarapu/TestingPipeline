@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR10_ProposalStatusRequired</fullName>
+    <active>true</active>
+    <description>#SAL-1197 - This rule checks if the Proposal team support field = RFP, RFI, or Proactive Proposal then make the RFP Status field required.</description>
+    <errorConditionFormula>AND(
+    NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+    AND(
+        OR(
+            ISPICKVAL(ProposalTeamSupport__c, &#39;RFI&#39;),
+            ISPICKVAL(ProposalTeamSupport__c, &#39;RFP&#39;),
+            ISPICKVAL(ProposalTeamSupport__c, &#39;Proactive Proposal&#39;)
+        ),
+        ISBLANK(TEXT(ProposalStatus__c))
+    )
+)</errorConditionFormula>
+    <errorDisplayField>ProposalStatus__c</errorDisplayField>
+    <errorMessage>If the Proposal Team Support is RFP, RFI, or Proactive Proposal then the Proposal Status field is required</errorMessage>
+</ValidationRule>

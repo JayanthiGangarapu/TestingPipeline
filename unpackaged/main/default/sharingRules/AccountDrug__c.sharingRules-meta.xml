@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CMM_AccountDrugConsolidatedExtendedGroupSharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>#SAL-485 Account Drug Sharing Settings</description>
+        <label>Account Drug Consolidated Extended Group Sharing</label>
+        <sharedTo>
+            <group>CMM_ExtendedDrugShareConsolidated</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BioPharma</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CMM_AccountDrugConsolidatedGroupSharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>#SAL-485 Read-only Sharing of Account Drugs</description>
+        <label>Account Drug Consolidated Group Sharing</label>
+        <sharedTo>
+            <group>CMM_DrugShareConsolidated</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BioPharma</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

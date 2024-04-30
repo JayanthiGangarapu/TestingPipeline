@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TherapeuticSubcategory__c</fullName>
+    <description>#SAL-650 Therapeutic Subcategory</description>
+    <externalId>false</externalId>
+    <label>Therapeutic Subcategory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACE inhibitors</fullName>
+                <default>false</default>
+                <label>ACE inhibitors</label>
+            </value>
+            <value>
+                <fullName>Alkaloids</fullName>
+                <default>false</default>
+                <label>Alkaloids</label>
+            </value>
+            <value>
+                <fullName>Alkylating agents</fullName>
+                <default>false</default>
+                <label>Alkylating agents</label>
+            </value>
+            <value>
+                <fullName>Anaesthetics</fullName>
+                <default>false</default>
+                <label>Anaesthetics</label>
+            </value>
+            <value>
+                <fullName>Angiotensin II antagonists</fullName>
+                <default>false</default>
+                <label>Angiotensin II antagonists</label>
+            </value>
+            <value>
+                <fullName>Antacids &amp; anti-ulcerants</fullName>
+                <default>false</default>
+                <label>Antacids &amp; anti-ulcerants</label>
+            </value>
+            <value>
+                <fullName>Anti-acne preparations</fullName>
+                <default>false</default>
+                <label>Anti-acne preparations</label>
+            </value>
+            <value>
+                <fullName>Anti-anaemics</fullName>
+                <default>false</default>
+                <label>Anti-anaemics</label>
+            </value>
+            <value>
+                <fullName>Anti-angiogenics</fullName>
+                <default>false</default>
+                <label>Anti-angiogenics</label>
+            </value>
+            <value>
+                <fullName>Anti-bacterials</fullName>
+                <default>false</default>
+                <label>Anti-bacterials</label>
+            </value>
+            <value>
+                <fullName>Anti-cholinergics</fullName>
+                <default>false</default>
+                <label>Anti-cholinergics</label>
+            </value>
+            <value>
+                <fullName>Anti-coagulants</fullName>
+                <default>false</default>
+                <label>Anti-coagulants</label>
+            </value>
+            <value>
+                <fullName>Anti-depressants</fullName>
+                <default>false</default>
+                <label>Anti-depressants</label>
+            </value>
+            <value>
+                <fullName>Anti-diabetics</fullName>
+                <default>false</default>
+                <label>Anti-diabetics</label>
+            </value>
+            <value>
+                <fullName>Anti-diarrhoeals</fullName>
+                <default>false</default>
+                <label>Anti-diarrhoeals</label>
+            </value>
+            <value>
+                <fullName>Anti-emetics</fullName>
+                <default>false</default>
+                <label>Anti-emetics</label>
+            </value>
+            <value>
+                <fullName>Anti-epileptics</fullName>
+                <default>false</default>
+                <label>Anti-epileptics</label>
+            </value>
+            <value>
+                <fullName>Anti-fibrinolytics</fullName>
+                <default>false</default>
+                <label>Anti-fibrinolytics</label>
+            </value>
+            <value>
+                <fullName>Anti-fungals</fullName>
+                <default>false</default>
+                <label>Anti-fungals</label>
+            </value>
+            <value>
+                <fullName>Anti-gout preparations</fullName>
+                <default>false</default>
+                <label>Anti-gout preparations</label>
+            </value>
+            <value>
+                <fullName>Anti-histamines</fullName>
+                <default>false</default>
+                <label>Anti-histamines</label>
+            </value>
+            <value>
+                <fullName>Anti-hyperlipidaemics</fullName>
+                <default>false</default>
+                <label>Anti-hyperlipidaemics</label>
+            </value>
+            <value>
+                <fullName>Anti-leukotrienes</fullName>
+                <default>false</default>
+                <label>Anti-leukotrienes</label>
+            </value>
+            <value>
+                <fullName>Anti-metabolites</fullName>
+                <default>false</default>
+                <label>Anti-metabolites</label>
+            </value>
+            <value>
+                <fullName>Anti-migraine preparations</fullName>
+                <default>false</default>
+                <label>Anti-migraine preparations</label>
+            </value>
+            <value>
+                <fullName>Anti-obesity agents</fullName>
+                <default>false</default>
+                <label>Anti-obesity agents</label>
+            </value>
+            <value>
+                <fullName>Anti-parasitics</fullName>
+                <default>false</default>
+                <label>Anti-parasitics</label>
+            </value>
+            <value>
+                <fullName>Anti-Parkinson&#39;s agents</fullName>
+                <default>false</default>
+                <label>Anti-Parkinson&#39;s agents</label>
+            </value>
+            <value>
+                <fullName>Anti-psoriasis agents</fullName>
+                <default>false</default>
+                <label>Anti-psoriasis agents</label>
+            </value>
+            <value>
+                <fullName>Anti-psychotics</fullName>
+                <default>false</default>
+                <label>Anti-psychotics</label>
+            </value>
+            <value>
+                <fullName>Anti-spasmodics &amp; anti-cholinergics</fullName>
+                <default>false</default>
+                <label>Anti-spasmodics &amp; anti-cholinergics</label>
+            </value>
+            <value>
+                <fullName>Anti-virals</fullName>
+                <default>false</default>
+                <label>Anti-virals</label>
+            </value>
+            <value>
+                <fullName>B2 stimulants</fullName>
+                <default>false</default>
+                <label>B2 stimulants</label>
+            </value>
+            <value>
+                <fullName>Beta blockers</fullName>
+                <default>false</default>
+                <label>Beta blockers</label>
+            </value>
+            <value>
+                <fullName>Blood substitutes</fullName>
+                <default>false</default>
+                <label>Blood substitutes</label>
+            </value>
+            <value>
+                <fullName>Bone regulators</fullName>
+                <default>false</default>
+                <label>Bone regulators</label>
+            </value>
+            <value>
+                <fullName>Calcitonins</fullName>
+                <default>false</default>
+                <label>Calcitonins</label>
+            </value>
+            <value>
+                <fullName>Calcium antagonists</fullName>
+                <default>false</default>
+                <label>Calcium antagonists</label>
+            </value>
+            <value>
+                <fullName>Cardiac therapy</fullName>
+                <default>false</default>
+                <label>Cardiac therapy</label>
+            </value>
+            <value>
+                <fullName>Cerebral &amp; peripheral vasotherapeutics</fullName>
+                <default>false</default>
+                <label>Cerebral &amp; peripheral vasotherapeutics</label>
+            </value>
+            <value>
+                <fullName>Cholagogues</fullName>
+                <default>false</default>
+                <label>Cholagogues</label>
+            </value>
+            <value>
+                <fullName>Corticoids</fullName>
+                <default>false</default>
+                <label>Corticoids</label>
+            </value>
+            <value>
+                <fullName>Cytotoxic antibiotics</fullName>
+                <default>false</default>
+                <label>Cytotoxic antibiotics</label>
+            </value>
+            <value>
+                <fullName>Diagnostic imaging</fullName>
+                <default>false</default>
+                <label>Diagnostic imaging</label>
+            </value>
+            <value>
+                <fullName>Diet supplements</fullName>
+                <default>false</default>
+                <label>Diet supplements</label>
+            </value>
+            <value>
+                <fullName>Diuretics</fullName>
+                <default>false</default>
+                <label>Diuretics</label>
+            </value>
+            <value>
+                <fullName>Ear/Otic preparations</fullName>
+                <default>false</default>
+                <label>Ear/Otic preparations</label>
+            </value>
+            <value>
+                <fullName>Emollients &amp; wound healing agents</fullName>
+                <default>false</default>
+                <label>Emollients &amp; wound healing agents</label>
+            </value>
+            <value>
+                <fullName>Eye/Ophthalmic preparations</fullName>
+                <default>false</default>
+                <label>Eye/Ophthalmic preparations</label>
+            </value>
+            <value>
+                <fullName>Female sex hormones</fullName>
+                <default>false</default>
+                <label>Female sex hormones</label>
+            </value>
+            <value>
+                <fullName>Fertility agents</fullName>
+                <default>false</default>
+                <label>Fertility agents</label>
+            </value>
+            <value>
+                <fullName>Fibrinolytics</fullName>
+                <default>false</default>
+                <label>Fibrinolytics</label>
+            </value>
+            <value>
+                <fullName>Gastro-intestinal anti-inflammatories</fullName>
+                <default>false</default>
+                <label>Gastro-intestinal anti-inflammatories</label>
+            </value>
+            <value>
+                <fullName>Genito-urinary anti-infectives</fullName>
+                <default>false</default>
+                <label>Genito-urinary anti-infectives</label>
+            </value>
+            <value>
+                <fullName>Glucagons</fullName>
+                <default>false</default>
+                <label>Glucagons</label>
+            </value>
+            <value>
+                <fullName>Growth hormones</fullName>
+                <default>false</default>
+                <label>Growth hormones</label>
+            </value>
+            <value>
+                <fullName>Hormonal contraceptives</fullName>
+                <default>false</default>
+                <label>Hormonal contraceptives</label>
+            </value>
+            <value>
+                <fullName>Hormone therapies</fullName>
+                <default>false</default>
+                <label>Hormone therapies</label>
+            </value>
+            <value>
+                <fullName>Immuno-oncology</fullName>
+                <default>false</default>
+                <label>Immuno-oncology</label>
+            </value>
+            <value>
+                <fullName>Immunostimulants</fullName>
+                <default>false</default>
+                <label>Immunostimulants</label>
+            </value>
+            <value>
+                <fullName>Immunosuppressants</fullName>
+                <default>false</default>
+                <label>Immunosuppressants</label>
+            </value>
+            <value>
+                <fullName>Interferons</fullName>
+                <default>false</default>
+                <label>Interferons</label>
+            </value>
+            <value>
+                <fullName>Laxatives</fullName>
+                <default>false</default>
+                <label>Laxatives</label>
+            </value>
+            <value>
+                <fullName>Male sex hormones</fullName>
+                <default>false</default>
+                <label>Male sex hormones</label>
+            </value>
+            <value>
+                <fullName>MS Therapies</fullName>
+                <default>false</default>
+                <label>MS Therapies</label>
+            </value>
+            <value>
+                <fullName>Muscle relaxant, central</fullName>
+                <default>false</default>
+                <label>Muscle relaxant, central</label>
+            </value>
+            <value>
+                <fullName>Muscle relaxant, peripheral</fullName>
+                <default>false</default>
+                <label>Muscle relaxant, peripheral</label>
+            </value>
+            <value>
+                <fullName>Narcotic analgesics</fullName>
+                <default>false</default>
+                <label>Narcotic analgesics</label>
+            </value>
+            <value>
+                <fullName>Nasal &amp; Throat preparations</fullName>
+                <default>false</default>
+                <label>Nasal &amp; Throat preparations</label>
+            </value>
+            <value>
+                <fullName>Non-narcotic analgesics</fullName>
+                <default>false</default>
+                <label>Non-narcotic analgesics</label>
+            </value>
+            <value>
+                <fullName>Non-steroidal anti-inflammatories</fullName>
+                <default>false</default>
+                <label>Non-steroidal anti-inflammatories</label>
+            </value>
+            <value>
+                <fullName>Non-steroidal respiratory anti-inflammatories</fullName>
+                <default>false</default>
+                <label>Non-steroidal respiratory anti-inflammatories</label>
+            </value>
+            <value>
+                <fullName>Nootropics</fullName>
+                <default>false</default>
+                <label>Nootropics</label>
+            </value>
+            <value>
+                <fullName>Other anti-cancers</fullName>
+                <default>false</default>
+                <label>Other anti-cancers</label>
+            </value>
+            <value>
+                <fullName>Other anti-hypertensives</fullName>
+                <default>false</default>
+                <label>Other anti-hypertensives</label>
+            </value>
+            <value>
+                <fullName>Other anti-infectives</fullName>
+                <default>false</default>
+                <label>Other anti-infectives</label>
+            </value>
+            <value>
+                <fullName>Other anti-rheumatics</fullName>
+                <default>false</default>
+                <label>Other anti-rheumatics</label>
+            </value>
+            <value>
+                <fullName>Other bronchodilators</fullName>
+                <default>false</default>
+                <label>Other bronchodilators</label>
+            </value>
+            <value>
+                <fullName>Other cancer treatments</fullName>
+                <default>false</default>
+                <label>Other cancer treatments</label>
+            </value>
+            <value>
+                <fullName>Other cardiovasculars</fullName>
+                <default>false</default>
+                <label>Other cardiovasculars</label>
+            </value>
+            <value>
+                <fullName>Other CNS drugs</fullName>
+                <default>false</default>
+                <label>Other CNS drugs</label>
+            </value>
+            <value>
+                <fullName>Other dermatologicals</fullName>
+                <default>false</default>
+                <label>Other dermatologicals</label>
+            </value>
+            <value>
+                <fullName>Other gastro-intestinal agents</fullName>
+                <default>false</default>
+                <label>Other gastro-intestinal agents</label>
+            </value>
+            <value>
+                <fullName>Other genito-urinary agents</fullName>
+                <default>false</default>
+                <label>Other genito-urinary agents</label>
+            </value>
+            <value>
+                <fullName>Other haematologicals</fullName>
+                <default>false</default>
+                <label>Other haematologicals</label>
+            </value>
+            <value>
+                <fullName>Other hormone preparations</fullName>
+                <default>false</default>
+                <label>Other hormone preparations</label>
+            </value>
+            <value>
+                <fullName>Other musculoskeletal agents</fullName>
+                <default>false</default>
+                <label>Other musculoskeletal agents</label>
+            </value>
+            <value>
+                <fullName>Other respiratory agents</fullName>
+                <default>false</default>
+                <label>Other respiratory agents</label>
+            </value>
+            <value>
+                <fullName>Other therapeutic products</fullName>
+                <default>false</default>
+                <label>Other therapeutic products</label>
+            </value>
+            <value>
+                <fullName>Pituitary &amp; Hypothalamic hormones</fullName>
+                <default>false</default>
+                <label>Pituitary &amp; Hypothalamic hormones</label>
+            </value>
+            <value>
+                <fullName>Plasma expanders</fullName>
+                <default>false</default>
+                <label>Plasma expanders</label>
+            </value>
+            <value>
+                <fullName>Platelet aggregation inhibitors</fullName>
+                <default>false</default>
+                <label>Platelet aggregation inhibitors</label>
+            </value>
+            <value>
+                <fullName>Platinum compounds</fullName>
+                <default>false</default>
+                <label>Platinum compounds</label>
+            </value>
+            <value>
+                <fullName>Prostatic therapies</fullName>
+                <default>false</default>
+                <label>Prostatic therapies</label>
+            </value>
+            <value>
+                <fullName>Protein kinase inhibitors</fullName>
+                <default>false</default>
+                <label>Protein kinase inhibitors</label>
+            </value>
+            <value>
+                <fullName>Psychostimulants</fullName>
+                <default>false</default>
+                <label>Psychostimulants</label>
+            </value>
+            <value>
+                <fullName>Radiopharmaceuticals</fullName>
+                <default>false</default>
+                <label>Radiopharmaceuticals</label>
+            </value>
+            <value>
+                <fullName>Sedatives &amp; hypnotics</fullName>
+                <default>false</default>
+                <label>Sedatives &amp; hypnotics</label>
+            </value>
+            <value>
+                <fullName>Sera &amp; gammaglobulins</fullName>
+                <default>false</default>
+                <label>Sera &amp; gammaglobulins</label>
+            </value>
+            <value>
+                <fullName>Sexual dysfunction</fullName>
+                <default>false</default>
+                <label>Sexual dysfunction</label>
+            </value>
+            <value>
+                <fullName>Systemic corticosteroids</fullName>
+                <default>false</default>
+                <label>Systemic corticosteroids</label>
+            </value>
+            <value>
+                <fullName>Thyroid therapeutics</fullName>
+                <default>false</default>
+                <label>Thyroid therapeutics</label>
+            </value>
+            <value>
+                <fullName>Topical anti-infectives</fullName>
+                <default>false</default>
+                <label>Topical anti-infectives</label>
+            </value>
+            <value>
+                <fullName>Topical corticosteroids</fullName>
+                <default>false</default>
+                <label>Topical corticosteroids</label>
+            </value>
+            <value>
+                <fullName>Tranquilisers</fullName>
+                <default>false</default>
+                <label>Tranquilisers</label>
+            </value>
+            <value>
+                <fullName>Vaccines</fullName>
+                <default>false</default>
+                <label>Vaccines</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

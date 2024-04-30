@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDM_Component_Benefiting_Customer_Types__c</fullName>
+    <externalId>false</externalId>
+    <label>Component Benefiting Customer Types</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Biopharma</fullName>
+                <default>false</default>
+                <label>Biopharma</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Chain Pharmacy</fullName>
+                <default>false</default>
+                <label>Chain Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Outpatient Pharmacy</fullName>
+                <default>false</default>
+                <label>Outpatient Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Independent Pharmacy</fullName>
+                <default>false</default>
+                <label>Independent Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Payer</fullName>
+                <default>false</default>
+                <label>Payer</label>
+            </value>
+            <value>
+                <fullName>Pharmacy Benefit Manager</fullName>
+                <default>false</default>
+                <label>Pharmacy Benefit Manager</label>
+            </value>
+            <value>
+                <fullName>Cash Discount Card Company</fullName>
+                <default>false</default>
+                <label>Cash Discount Card Company</label>
+            </value>
+            <value>
+                <fullName>Retail Pharmacy</fullName>
+                <default>false</default>
+                <label>Retail Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Physician Vendor</fullName>
+                <default>false</default>
+                <label>Physician Vendor</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <label>Vendor</label>
+            </value>
+            <value>
+                <fullName>Medical Supply Vendor</fullName>
+                <default>false</default>
+                <label>Medical Supply Vendor</label>
+            </value>
+            <value>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+                <label>Reseller</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>GPO</fullName>
+                <default>false</default>
+                <label>GPO</label>
+            </value>
+            <value>
+                <fullName>Telehealth</fullName>
+                <default>false</default>
+                <label>Telehealth</label>
+            </value>
+            <value>
+                <fullName>Health System</fullName>
+                <default>false</default>
+                <label>Health System</label>
+            </value>
+            <value>
+                <fullName>Switch</fullName>
+                <default>false</default>
+                <label>Switch</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+            <value>
+                <fullName>Patient</fullName>
+                <default>false</default>
+                <label>Patient</label>
+            </value>
+            <value>
+                <fullName>Pharma,Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharma,Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Pharma</fullName>
+                <default>false</default>
+                <label>Pharma</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

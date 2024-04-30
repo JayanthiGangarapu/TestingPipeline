@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SurveyContact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>#SAL-556 - NPS Surveys and all verticals use this to manage who will be an NPS survey recipient.</description>
+    <externalId>false</externalId>
+    <label>Survey Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

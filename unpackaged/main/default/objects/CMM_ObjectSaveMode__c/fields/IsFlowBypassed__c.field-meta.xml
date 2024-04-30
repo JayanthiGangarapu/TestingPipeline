@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsFlowBypassed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checks if Flow Rule is bypassed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checks if Flow Rule is bypassed</inlineHelpText>
+    <label>Is Flow Bypassed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

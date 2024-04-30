@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Technology --></label>
+        <name>Technology__c</name>
+        <picklistValues>
+            <masterLabel>Cell therapy</masterLabel>
+            <translation><!-- Cell therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DNA &amp; RNA therapeutics</masterLabel>
+            <translation><!-- DNA &amp; RNA therapeutics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gene therapy</masterLabel>
+            <translation><!-- Gene therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gene-Modified Cell Therapy</masterLabel>
+            <translation><!-- Gene-Modified Cell Therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genome Editing</masterLabel>
+            <translation><!-- Genome Editing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In vivo diagnostics</masterLabel>
+            <translation><!-- In vivo diagnostics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monoclonal antibody</masterLabel>
+            <translation><!-- Monoclonal antibody --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncolytic Virus</masterLabel>
+            <translation><!-- Oncolytic Virus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other biotechnology product</masterLabel>
+            <translation><!-- Other biotechnology product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plant extract</masterLabel>
+            <translation><!-- Plant extract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plasma-derived therapy</masterLabel>
+            <translation><!-- Plasma-derived therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protein &amp; peptide therapeutics</masterLabel>
+            <translation><!-- Protein &amp; peptide therapeutics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recombinant antibody</masterLabel>
+            <translation><!-- Recombinant antibody --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small molecule chemistry</masterLabel>
+            <translation><!-- Small molecule chemistry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transgenic product</masterLabel>
+            <translation><!-- Transgenic product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccine</masterLabel>
+            <translation><!-- Vaccine --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

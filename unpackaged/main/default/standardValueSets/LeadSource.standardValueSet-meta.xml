@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Existing Relationship</fullName>
+        <default>false</default>
+        <label>Existing Relationship</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing/Market Intel</fullName>
+        <default>false</default>
+        <label>Marketing/Market Intel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Proactive/Outreach</fullName>
+        <default>false</default>
+        <label>Proactive/Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Word of Mouth</fullName>
+        <default>false</default>
+        <label>Word of Mouth</label>
+    </standardValue>
+</StandardValueSet>

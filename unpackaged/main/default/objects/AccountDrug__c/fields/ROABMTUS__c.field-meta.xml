@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROABMTUS__c</fullName>
+    <description>#SAL-650 ROA (BMT - US)</description>
+    <externalId>false</externalId>
+    <label>ROA (BMT - US)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hemoperfusion</fullName>
+                <default>false</default>
+                <label>Hemoperfusion</label>
+            </value>
+            <value>
+                <fullName>Inhaled</fullName>
+                <default>false</default>
+                <label>Inhaled</label>
+            </value>
+            <value>
+                <fullName>Instillation</fullName>
+                <default>false</default>
+                <label>Instillation</label>
+            </value>
+            <value>
+                <fullName>Intra-amniotic</fullName>
+                <default>false</default>
+                <label>Intra-amniotic</label>
+            </value>
+            <value>
+                <fullName>Intraarterial</fullName>
+                <default>false</default>
+                <label>Intraarterial</label>
+            </value>
+            <value>
+                <fullName>Intraarticular</fullName>
+                <default>false</default>
+                <label>Intraarticular</label>
+            </value>
+            <value>
+                <fullName>Intracavitary</fullName>
+                <default>false</default>
+                <label>Intracavitary</label>
+            </value>
+            <value>
+                <fullName>Intracerebral/cerebroventricular</fullName>
+                <default>false</default>
+                <label>Intracerebral/cerebroventricular</label>
+            </value>
+            <value>
+                <fullName>Intra-Cisterna Magna (ICM) Injection</fullName>
+                <default>false</default>
+                <label>Intra-Cisterna Magna (ICM) Injection</label>
+            </value>
+            <value>
+                <fullName>Intracochlear</fullName>
+                <default>false</default>
+                <label>Intracochlear</label>
+            </value>
+            <value>
+                <fullName>Intradermal</fullName>
+                <default>false</default>
+                <label>Intradermal</label>
+            </value>
+            <value>
+                <fullName>Intradiscal</fullName>
+                <default>false</default>
+                <label>Intradiscal</label>
+            </value>
+            <value>
+                <fullName>Intraintestinal</fullName>
+                <default>false</default>
+                <label>Intraintestinal</label>
+            </value>
+            <value>
+                <fullName>Intramuscular (IM)</fullName>
+                <default>false</default>
+                <label>Intramuscular (IM)</label>
+            </value>
+            <value>
+                <fullName>Intranasal</fullName>
+                <default>false</default>
+                <label>Intranasal</label>
+            </value>
+            <value>
+                <fullName>Intranodal</fullName>
+                <default>false</default>
+                <label>Intranodal</label>
+            </value>
+            <value>
+                <fullName>Intraocular/Subretinal/Subconjunctival</fullName>
+                <default>false</default>
+                <label>Intraocular/Subretinal/Subconjunctival</label>
+            </value>
+            <value>
+                <fullName>Intrathecal</fullName>
+                <default>false</default>
+                <label>Intrathecal</label>
+            </value>
+            <value>
+                <fullName>Intratracheal</fullName>
+                <default>false</default>
+                <label>Intratracheal</label>
+            </value>
+            <value>
+                <fullName>Intratumoral</fullName>
+                <default>false</default>
+                <label>Intratumoral</label>
+            </value>
+            <value>
+                <fullName>Intratympanic</fullName>
+                <default>false</default>
+                <label>Intratympanic</label>
+            </value>
+            <value>
+                <fullName>Intraurethral</fullName>
+                <default>false</default>
+                <label>Intraurethral</label>
+            </value>
+            <value>
+                <fullName>Intrauterine</fullName>
+                <default>false</default>
+                <label>Intrauterine</label>
+            </value>
+            <value>
+                <fullName>Intravaginal</fullName>
+                <default>false</default>
+                <label>Intravaginal</label>
+            </value>
+            <value>
+                <fullName>Intravenous (IV)</fullName>
+                <default>false</default>
+                <label>Intravenous (IV)</label>
+            </value>
+            <value>
+                <fullName>Intravesical</fullName>
+                <default>false</default>
+                <label>Intravesical</label>
+            </value>
+            <value>
+                <fullName>Intravitreal</fullName>
+                <default>false</default>
+                <label>Intravitreal</label>
+            </value>
+            <value>
+                <fullName>Oral (PO)</fullName>
+                <default>false</default>
+                <label>Oral (PO)</label>
+            </value>
+            <value>
+                <fullName>Percutaneous Catheter/Injection</fullName>
+                <default>false</default>
+                <label>Percutaneous Catheter/Injection</label>
+            </value>
+            <value>
+                <fullName>Rectal</fullName>
+                <default>false</default>
+                <label>Rectal</label>
+            </value>
+            <value>
+                <fullName>Subcutaneous (SQ)</fullName>
+                <default>false</default>
+                <label>Subcutaneous (SQ)</label>
+            </value>
+            <value>
+                <fullName>Sublingual (SL)/Oral Transmucosal</fullName>
+                <default>false</default>
+                <label>Sublingual (SL)/Oral Transmucosal</label>
+            </value>
+            <value>
+                <fullName>Surgical Implantation</fullName>
+                <default>false</default>
+                <label>Surgical Implantation</label>
+            </value>
+            <value>
+                <fullName>Topical</fullName>
+                <default>false</default>
+                <label>Topical</label>
+            </value>
+            <value>
+                <fullName>Transdermal</fullName>
+                <default>false</default>
+                <label>Transdermal</label>
+            </value>
+            <value>
+                <fullName>Submucosal</fullName>
+                <default>false</default>
+                <label>Submucosal</label>
+            </value>
+            <value>
+                <fullName>Injectable - Unspecified</fullName>
+                <default>false</default>
+                <label>Injectable - Unspecified</label>
+            </value>
+            <value>
+                <fullName>Intracameral</fullName>
+                <default>false</default>
+                <label>Intracameral</label>
+            </value>
+            <value>
+                <fullName>Intralymphatic</fullName>
+                <default>false</default>
+                <label>Intralymphatic</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Subcutaneous (SQ) - Unspecified</fullName>
+                <default>false</default>
+                <label>Subcutaneous (SQ) - Unspecified</label>
+            </value>
+            <value>
+                <fullName>Subcutaneous (SQ) Infusion</fullName>
+                <default>false</default>
+                <label>Subcutaneous (SQ) Infusion</label>
+            </value>
+            <value>
+                <fullName>Subcutaneous (SQ) Injection</fullName>
+                <default>false</default>
+                <label>Subcutaneous (SQ) Injection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

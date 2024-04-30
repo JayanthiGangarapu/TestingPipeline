@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CMM_MDM_Intake_Queue_Name</fullName>
+        <categories>CMM_BioPharma</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MDM Intake Queue Name</shortDescription>
+        <value>CMM_MDM_Intake_Queue</value>
+    </labels>
+    <labels>
+        <fullName>CMM_Sales_Ops_Intake_Queue_Name</fullName>
+        <categories>CMM_BioPharma</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Ops Intake Queue Name</shortDescription>
+        <value>CMM_Sales_Ops_Intake_Queue</value>
+    </labels>
+</CustomLabels>

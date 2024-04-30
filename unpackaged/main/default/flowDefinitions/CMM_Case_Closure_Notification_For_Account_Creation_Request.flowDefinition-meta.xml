@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>5</activeVersionNumber>
+    <description>#SAL-452 - Flow to notify the case requester when &#39;Account Creation Request&#39; type case is closed.</description>
+    <masterLabel>CMM Case Closure Notification For Account Creation Request</masterLabel>
+</FlowDefinition>

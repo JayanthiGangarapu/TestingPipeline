@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMM_VR11_QuoteStatusInApprovedRequired</fullName>
+    <active>true</active>
+    <description>#SAL-1197 The validation rule checks to see if the ‘Quote Status’ field on the opportunity is &#39;Approved&#39; to be able to move the opportunity manually from Value Proposition to Negotiate.</description>
+    <errorConditionFormula>AND(
+    NOT( $Setup.CMM_ObjectSaveMode__c.IsVRBypassed__c ),
+    AND(
+        ISPICKVAL(StageName, &#39;Negotiate&#39;),
+        PrimaryQuoteStatus__c &lt;&gt; &#39;Approved&#39;
+    )
+)</errorConditionFormula>
+    <errorMessage>The Quote Status must be &#39;Approved&#39; to move from &#39;Value Proposition&#39; to &#39;Negotiate&#39;</errorMessage>
+</ValidationRule>

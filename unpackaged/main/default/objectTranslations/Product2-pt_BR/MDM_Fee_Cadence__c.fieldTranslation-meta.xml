@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fee Cadence --></label>
+        <name>MDM_Fee_Cadence__c</name>
+        <picklistValues>
+            <masterLabel>Non-Recurring</masterLabel>
+            <translation><!-- Non-Recurring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Recurring Per Each</masterLabel>
+            <translation><!-- Non-Recurring Per Each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring</masterLabel>
+            <translation><!-- Recurring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Per Each</masterLabel>
+            <translation><!-- Recurring Per Each --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

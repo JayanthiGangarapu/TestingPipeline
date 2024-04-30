@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Account Management Director (AMD)</fullName>
+        <default>false</default>
+        <label>Account Management Director (AMD)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Operations Manager</fullName>
+        <default>false</default>
+        <label>Account Operations Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Sales Support (CSS)</fullName>
+        <default>false</default>
+        <label>Clinical Sales Support (CSS)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Solutions Sales Director (CSSD)</fullName>
+        <default>false</default>
+        <label>Customer Solutions Sales Director (CSSD)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Director Account Operations</fullName>
+        <default>false</default>
+        <label>Director Account Operations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manager, Account Operations</fullName>
+        <default>false</default>
+        <label>Manager, Account Operations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>S/Dir Comm Solutions</fullName>
+        <default>false</default>
+        <label>S/Dir Comm Solutions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Strategic Data Scientist (SDS) / A&amp;A</fullName>
+        <default>false</default>
+        <label>Strategic Data Scientist (SDS) / A&amp;A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Strategic Data Scientist (SDS) / Affordability</fullName>
+        <default>false</default>
+        <label>Strategic Data Scientist (SDS) / Affordability</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VP</fullName>
+        <default>false</default>
+        <label>VP</label>
+    </standardValue>
+</StandardValueSet>

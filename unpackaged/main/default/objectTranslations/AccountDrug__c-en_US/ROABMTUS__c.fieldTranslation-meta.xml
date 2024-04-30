@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ROA (BMT - US) --></label>
+        <name>ROABMTUS__c</name>
+        <picklistValues>
+            <masterLabel>Hemoperfusion</masterLabel>
+            <translation><!-- Hemoperfusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inhaled</masterLabel>
+            <translation><!-- Inhaled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injectable - Unspecified</masterLabel>
+            <translation><!-- Injectable - Unspecified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instillation</masterLabel>
+            <translation><!-- Instillation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-Cisterna Magna (ICM) Injection</masterLabel>
+            <translation><!-- Intra-Cisterna Magna (ICM) Injection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-amniotic</masterLabel>
+            <translation><!-- Intra-amniotic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intraarterial</masterLabel>
+            <translation><!-- Intraarterial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intraarticular</masterLabel>
+            <translation><!-- Intraarticular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracameral</masterLabel>
+            <translation><!-- Intracameral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracavitary</masterLabel>
+            <translation><!-- Intracavitary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracerebral/cerebroventricular</masterLabel>
+            <translation><!-- Intracerebral/cerebroventricular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracochlear</masterLabel>
+            <translation><!-- Intracochlear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intradermal</masterLabel>
+            <translation><!-- Intradermal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intradiscal</masterLabel>
+            <translation><!-- Intradiscal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intraintestinal</masterLabel>
+            <translation><!-- Intraintestinal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intralymphatic</masterLabel>
+            <translation><!-- Intralymphatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intramuscular (IM)</masterLabel>
+            <translation><!-- Intramuscular (IM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intranasal</masterLabel>
+            <translation><!-- Intranasal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intranodal</masterLabel>
+            <translation><!-- Intranodal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intraocular/Subretinal/Subconjunctival</masterLabel>
+            <translation><!-- Intraocular/Subretinal/Subconjunctival --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrathecal</masterLabel>
+            <translation><!-- Intrathecal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intratracheal</masterLabel>
+            <translation><!-- Intratracheal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intratumoral</masterLabel>
+            <translation><!-- Intratumoral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intratympanic</masterLabel>
+            <translation><!-- Intratympanic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intraurethral</masterLabel>
+            <translation><!-- Intraurethral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrauterine</masterLabel>
+            <translation><!-- Intrauterine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravaginal</masterLabel>
+            <translation><!-- Intravaginal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravenous (IV)</masterLabel>
+            <translation><!-- Intravenous (IV) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravesical</masterLabel>
+            <translation><!-- Intravesical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravitreal</masterLabel>
+            <translation><!-- Intravitreal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oral (PO)</masterLabel>
+            <translation><!-- Oral (PO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percutaneous Catheter/Injection</masterLabel>
+            <translation><!-- Percutaneous Catheter/Injection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rectal</masterLabel>
+            <translation><!-- Rectal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subcutaneous (SQ)</masterLabel>
+            <translation><!-- Subcutaneous (SQ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subcutaneous (SQ) - Unspecified</masterLabel>
+            <translation><!-- Subcutaneous (SQ) - Unspecified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subcutaneous (SQ) Infusion</masterLabel>
+            <translation><!-- Subcutaneous (SQ) Infusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subcutaneous (SQ) Injection</masterLabel>
+            <translation><!-- Subcutaneous (SQ) Injection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sublingual (SL)/Oral Transmucosal</masterLabel>
+            <translation><!-- Sublingual (SL)/Oral Transmucosal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submucosal</masterLabel>
+            <translation><!-- Submucosal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical Implantation</masterLabel>
+            <translation><!-- Surgical Implantation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Topical</masterLabel>
+            <translation><!-- Topical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transdermal</masterLabel>
+            <translation><!-- Transdermal --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

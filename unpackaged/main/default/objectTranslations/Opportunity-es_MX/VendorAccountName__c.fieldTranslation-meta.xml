@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When the &quot;Consultant-Sourced&quot; checkbox is selected, you must add the Vendor Account information. --></help>
+        <label><!-- Vendor Account Name --></label>
+        <name>VendorAccountName__c</name>
+        <relationshipLabel><!-- Vendor Opportunities --></relationshipLabel>
+    </CustomFieldTranslation>
